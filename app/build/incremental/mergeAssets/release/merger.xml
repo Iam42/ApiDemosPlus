@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ComAndroidSupportAppcompatV71800.aar" >
+        <source path="/Users/a42/Develop/android-project/ApiDemosPlus/app/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/assets" >
+            <file
+                name="fonts/samplefont.ttf"
+                path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/assets/fonts/samplefont.ttf" />
+            <file
+                name="HelloActivity.apk"
+                path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/assets/HelloActivity.apk" />
+            <file
+                name="read_asset.txt"
+                path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/assets/read_asset.txt" />
+        </source>
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/release/assets" />
+    </dataSet>
+
+</merger>

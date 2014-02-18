@@ -17,22 +17,22 @@ package com.example.android.apis.app;
 
 import com.example.android.apis.R;
 
-import android.app.ActionBar;
-import android.app.ActionBar.Tab;
-import android.app.Activity;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBar.Tab;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.View;
-import android.view.ViewGroup.LayoutParams;
 
 /**
  * This demo shows how various action bar display option flags can be combined and their effects.
  */
-public class ActionBarDisplayOptions extends Activity
+public class ActionBarDisplayOptions extends ActionBarActivity
         implements View.OnClickListener, ActionBar.TabListener {
+
     private View mCustomView;
+    private int SDK_INT = android.os.Build.VERSION.SDK_INT;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,9 +51,10 @@ public class ActionBarDisplayOptions extends Activity
 
         mCustomView = getLayoutInflater().inflate(R.layout.action_bar_display_options_custom, null);
         // Configure several action bar elements that will be toggled by display options.
-        final ActionBar bar = getActionBar();
-        bar.setCustomView(mCustomView,
-                new ActionBar.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+        final ActionBar bar = getSupportActionBar();
+        bar.setCustomView(mCustomView);
+//        bar.setCustomView(mCustomView,
+//                new ActionBar.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
 
         bar.addTab(bar.newTab().setText("Tab 1").setTabListener(this));
         bar.addTab(bar.newTab().setText("Tab 2").setTabListener(this));
@@ -67,7 +68,7 @@ public class ActionBarDisplayOptions extends Activity
     }
 
     public void onClick(View v) {
-        final ActionBar bar = getActionBar();
+        final ActionBar bar = getSupportActionBar();
         int flags = 0;
         switch (v.getId()) {
             case R.id.toggle_home_as_up:
@@ -117,9 +118,12 @@ public class ActionBarDisplayOptions extends Activity
                 }
                 return;
             case R.id.toggle_system_ui:
+                if (SDK_INT < 11) {
+                    return;
+                }
                 if ((getWindow().getDecorView().getSystemUiVisibility()
                         & View.SYSTEM_UI_FLAG_FULLSCREEN) != 0) {
-                    getWindow().getDecorView().setSystemUiVisibility(0);
+                    getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
                 } else {
                     getWindow().getDecorView().setSystemUiVisibility(
                             View.SYSTEM_UI_FLAG_FULLSCREEN);
@@ -131,12 +135,18 @@ public class ActionBarDisplayOptions extends Activity
         bar.setDisplayOptions(change, flags);
     }
 
-    public void onTabSelected(Tab tab, FragmentTransaction ft) {
+    @Override
+    public void onTabSelected(Tab tab, android.support.v4.app.FragmentTransaction fragmentTransaction) {
+
     }
 
-    public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+    @Override
+    public void onTabUnselected(Tab tab, android.support.v4.app.FragmentTransaction fragmentTransaction) {
+
     }
 
-    public void onTabReselected(Tab tab, FragmentTransaction ft) {
+    @Override
+    public void onTabReselected(Tab tab, android.support.v4.app.FragmentTransaction fragmentTransaction) {
+
     }
 }
