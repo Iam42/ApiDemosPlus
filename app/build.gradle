@@ -1,0 +1,25 @@
+apply plugin: 'android'
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.1"
+
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 17
+
+        testPackageName "com.example.android.apis.tests"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('src/main/libs/android-support-v4.jar')
+    compile files('src/main/libs/android-support-v7-appcompat.jar')
+}
