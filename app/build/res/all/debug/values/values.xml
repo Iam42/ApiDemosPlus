@@ -247,6 +247,11 @@
         <item>1950</item>
         <item>1949</item>
     </string-array>
+    <string-array name="navigation_list">
+        <item>list1</item>
+        <item>list2</item>
+        <item>list3</item>
+    </string-array>
     <string-array name="password_qualities">
         <item>Unspecified</item>
         <item>Something</item>

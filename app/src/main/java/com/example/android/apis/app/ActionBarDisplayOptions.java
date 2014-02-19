@@ -21,15 +21,18 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBar.Tab;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.SpinnerAdapter;
 
 /**
  * This demo shows how various action bar display option flags can be combined and their effects.
  */
 public class ActionBarDisplayOptions extends ActionBarActivity
-        implements View.OnClickListener, ActionBar.TabListener {
+        implements View.OnClickListener, ActionBar.TabListener, ActionBar.OnNavigationListener {
 
     private View mCustomView;
     private int SDK_INT = android.os.Build.VERSION.SDK_INT;
@@ -52,13 +55,15 @@ public class ActionBarDisplayOptions extends ActionBarActivity
         mCustomView = getLayoutInflater().inflate(R.layout.action_bar_display_options_custom, null);
         // Configure several action bar elements that will be toggled by display options.
         final ActionBar bar = getSupportActionBar();
-        bar.setCustomView(mCustomView);
-//        bar.setCustomView(mCustomView,
-//                new ActionBar.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+        bar.setCustomView(mCustomView,
+                new ActionBar.LayoutParams(ActionBar.LayoutParams.WRAP_CONTENT, ActionBar.LayoutParams.WRAP_CONTENT));
 
         bar.addTab(bar.newTab().setText("Tab 1").setTabListener(this));
         bar.addTab(bar.newTab().setText("Tab 2").setTabListener(this));
         bar.addTab(bar.newTab().setText("Tab 3").setTabListener(this));
+
+        SpinnerAdapter adapter = ArrayAdapter.createFromResource(this, R.array.navigation_list, android.R.layout.simple_spinner_dropdown_item);
+        bar.setListNavigationCallbacks(adapter, this);
     }
 
     @Override
@@ -88,27 +93,32 @@ public class ActionBarDisplayOptions extends ActionBarActivity
                 break;
 
             case R.id.toggle_navigation:
-                bar.setNavigationMode(
-                        bar.getNavigationMode() == ActionBar.NAVIGATION_MODE_STANDARD
-                                ? ActionBar.NAVIGATION_MODE_TABS
-                                : ActionBar.NAVIGATION_MODE_STANDARD);
-                return;
-            case R.id.cycle_custom_gravity:
-                ActionBar.LayoutParams lp = (ActionBar.LayoutParams) mCustomView.getLayoutParams();
-                int newGravity = 0;
-                switch (lp.gravity & Gravity.RELATIVE_HORIZONTAL_GRAVITY_MASK) {
-                    case Gravity.START:
-                        newGravity = Gravity.CENTER_HORIZONTAL;
-                        break;
-                    case Gravity.CENTER_HORIZONTAL:
-                        newGravity = Gravity.END;
-                        break;
-                    case Gravity.END:
-                        newGravity = Gravity.START;
-                        break;
+                if (bar.getNavigationMode() == ActionBar.NAVIGATION_MODE_STANDARD) {
+                    bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+                } else if (bar.getNavigationMode() == ActionBar.NAVIGATION_MODE_TABS) {
+                    bar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+                } else if (bar.getNavigationMode() == ActionBar.NAVIGATION_MODE_LIST) {
+                    bar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
                 }
-                lp.gravity = lp.gravity & ~Gravity.RELATIVE_HORIZONTAL_GRAVITY_MASK | newGravity;
-                bar.setCustomView(mCustomView, lp);
+                return;
+
+            case R.id.cycle_custom_gravity:
+                //java.lang.ClassCastException: android.app.ActionBar$LayoutParams cannot be cast to android.support.v7.app.ActionBar$LayoutParams
+//                ActionBar.LayoutParams lp = (ActionBar.LayoutParams) bar.getCustomView().getLayoutParams();
+//                int newGravity = 0;
+//                switch (lp.gravity & Gravity.RELATIVE_HORIZONTAL_GRAVITY_MASK) {
+//                    case Gravity.START:
+//                        newGravity = Gravity.CENTER_HORIZONTAL;
+//                        break;
+//                    case Gravity.CENTER_HORIZONTAL:
+//                        newGravity = Gravity.END;
+//                        break;
+//                    case Gravity.END:
+//                        newGravity = Gravity.START;
+//                        break;
+//                }
+//                lp.gravity = lp.gravity & ~Gravity.RELATIVE_HORIZONTAL_GRAVITY_MASK | newGravity;
+//                bar.setCustomView(mCustomView, lp);
                 return;
             case R.id.toggle_visibility:
                 if (bar.isShowing()) {
@@ -148,5 +158,10 @@ public class ActionBarDisplayOptions extends ActionBarActivity
     @Override
     public void onTabReselected(Tab tab, android.support.v4.app.FragmentTransaction fragmentTransaction) {
 
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(int i, long l) {
+        return false;
     }
 }

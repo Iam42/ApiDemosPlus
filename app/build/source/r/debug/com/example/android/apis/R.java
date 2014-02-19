@@ -59,14 +59,15 @@ public final class R {
         public static final int motogp_champions=0x7f090005;
         public static final int motogp_constructors=0x7f090006;
         public static final int motogp_years=0x7f090007;
-        public static final int password_qualities=0x7f090008;
-        public static final int planets=0x7f090009;
-        public static final int screen_orientations=0x7f09000a;
-        public static final int search_menuModes=0x7f09000b;
-        public static final int secure_view_clicked=0x7f09000c;
-        public static final int select_dialog_items=0x7f09000d;
-        public static final int select_dialog_items2=0x7f09000e;
-        public static final int select_dialog_items3=0x7f09000f;
+        public static final int navigation_list=0x7f090008;
+        public static final int password_qualities=0x7f090009;
+        public static final int planets=0x7f09000a;
+        public static final int screen_orientations=0x7f09000b;
+        public static final int search_menuModes=0x7f09000c;
+        public static final int secure_view_clicked=0x7f09000d;
+        public static final int select_dialog_items=0x7f09000e;
+        public static final int select_dialog_items2=0x7f09000f;
+        public static final int select_dialog_items3=0x7f090010;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"

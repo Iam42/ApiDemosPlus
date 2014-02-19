@@ -15,6 +15,14 @@
 -->
 
 <resources>
+
+    <!-- Used in App/ActionBarDisplayOption.java -->
+    <string-array name="navigation_list">
+        <item>list1</item>
+        <item>list2</item>
+        <item>list3</item>
+    </string-array>
+
     <!-- Used in View/Spinner1.java -->
     <string-array name="colors">
         <item>red</item>
