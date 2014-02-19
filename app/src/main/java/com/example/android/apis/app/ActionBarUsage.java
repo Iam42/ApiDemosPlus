@@ -15,14 +15,16 @@
  */
 package com.example.android.apis.app;
 
-import android.app.Activity;
+
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.SearchView;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.SearchView;
-import android.widget.SearchView.OnQueryTextListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,7 +36,7 @@ import com.example.android.apis.R;
  * menu data itself. If you'd like to see how these things work under the hood, see
  * ActionBarMechanics.
  */
-public class ActionBarUsage extends Activity implements OnQueryTextListener {
+public class ActionBarUsage extends ActionBarActivity implements SearchView.OnQueryTextListener {
     TextView mSearchText;
     int mSortMode = -1;
 
@@ -49,7 +51,18 @@ public class ActionBarUsage extends Activity implements OnQueryTextListener {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.actions, menu);
-        SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
+        //on sdk >= 11
+        //SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
+
+        //Notice that the showAsAction attribute also includes the "collapseActionView" value.
+        // This is optional and declares that the action view should be collapsed into a button.
+        //Because the system expands the action view when the user selects the action,
+        // you do not need to respond to the item in the onOptionsItemSelected() callback.
+        // The system still calls onOptionsItemSelected(),
+        // but if you return true (indicating you've handled the event instead),
+        // then the action view will not expand.
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
         searchView.setOnQueryTextListener(this);
         return true;
     }
@@ -75,17 +88,19 @@ public class ActionBarUsage extends Activity implements OnQueryTextListener {
     public void onSort(MenuItem item) {
         mSortMode = item.getItemId();
         // Request a call to onPrepareOptionsMenu so we can change the sort icon
-        invalidateOptionsMenu();
+        supportInvalidateOptionsMenu();
     }
 
     // The following callbacks are called for the SearchView.OnQueryChangeListener
     // For more about using SearchView, see src/.../view/SearchView1.java and SearchView2.java
+    @Override
     public boolean onQueryTextChange(String newText) {
-        newText = newText.isEmpty() ? "" : "Query so far: " + newText;
+        newText = TextUtils.isEmpty(newText) ? "" : "Query so far: " + newText;
         mSearchText.setText(newText);
         return true;
     }
 
+    @Override
     public boolean onQueryTextSubmit(String query) {
         Toast.makeText(this, "Searching for: " + query + "...", Toast.LENGTH_SHORT).show();
         return true;

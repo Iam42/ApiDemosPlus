@@ -13,18 +13,19 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:ApiDemos="http://schemas.android.com/apk/res-auto" >
     <item android:id="@+id/action_search"
           android:icon="@android:drawable/ic_menu_search"
           android:title="@string/action_bar_search"
-          android:showAsAction="ifRoom"
-          android:actionViewClass="android.widget.SearchView" />
+          ApiDemos:showAsAction="ifRoom|collapseActionView"
+          ApiDemos:actionViewClass="android.support.v7.widget.SearchView" />
     <item android:id="@+id/action_add"
           android:icon="@android:drawable/ic_menu_add"
           android:title="@string/action_bar_add" />
     <item android:id="@+id/action_edit"
           android:icon="@android:drawable/ic_menu_edit"
-          android:showAsAction="always"
+          android:showAsAction="ifRoom"
           android:title="@string/action_bar_edit" />
     <item android:id="@+id/action_share"
           android:icon="@android:drawable/ic_menu_share"
@@ -33,7 +34,7 @@
     <item android:id="@+id/action_sort"
           android:icon="@android:drawable/ic_menu_sort_by_size"
           android:title="@string/action_bar_sort"
-          android:showAsAction="ifRoom">
+          android:showAsAction="always">
         <menu>
             <item android:id="@+id/action_sort_size"
                   android:icon="@android:drawable/ic_menu_sort_by_size"
