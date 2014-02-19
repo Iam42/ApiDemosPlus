@@ -17,12 +17,11 @@ package com.example.android.apis.app;
 
 import com.example.android.apis.R;
 
-import android.app.ActionBar;
-import android.app.ActionBar.Tab;
-import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,7 +32,7 @@ import android.widget.Toast;
  * This demonstrates the use of action bar tabs and how they interact
  * with other action bar features.
  */
-public class ActionBarTabs extends Activity {
+public class ActionBarTabs extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +41,7 @@ public class ActionBarTabs extends Activity {
     }
 
     public void onAddTab(View v) {
-        final ActionBar bar = getActionBar();
+        final ActionBar bar = getSupportActionBar();
         final int tabCount = bar.getTabCount();
         final String text = "Tab " + tabCount;
         bar.addTab(bar.newTab()
@@ -51,14 +50,14 @@ public class ActionBarTabs extends Activity {
     }
 
     public void onRemoveTab(View v) {
-        final ActionBar bar = getActionBar();
+        final ActionBar bar = getSupportActionBar();
         if (bar.getTabCount() > 0) {
             bar.removeTabAt(bar.getTabCount() - 1);
         }
     }
 
     public void onToggleTabs(View v) {
-        final ActionBar bar = getActionBar();
+        final ActionBar bar = getSupportActionBar();
 
         if (bar.getNavigationMode() == ActionBar.NAVIGATION_MODE_TABS) {
             bar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
@@ -70,7 +69,7 @@ public class ActionBarTabs extends Activity {
     }
 
     public void onRemoveAllTabs(View v) {
-        getActionBar().removeAllTabs();
+        getSupportActionBar().removeAllTabs();
     }
 
     /**
@@ -93,18 +92,20 @@ public class ActionBarTabs extends Activity {
             mFragment = fragment;
         }
 
-        public void onTabSelected(Tab tab, FragmentTransaction ft) {
-            ft.add(R.id.fragment_content, mFragment, mFragment.getText());
+        @Override
+        public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+            fragmentTransaction.add(R.id.fragment_content, mFragment, mFragment.getText());
         }
 
-        public void onTabUnselected(Tab tab, FragmentTransaction ft) {
-            ft.remove(mFragment);
+        @Override
+        public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+            fragmentTransaction.remove(mFragment);
         }
 
-        public void onTabReselected(Tab tab, FragmentTransaction ft) {
+        @Override
+        public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
             Toast.makeText(ActionBarTabs.this, "Reselected!", Toast.LENGTH_SHORT).show();
         }
-
     }
 
     private class TabContentFragment extends Fragment {

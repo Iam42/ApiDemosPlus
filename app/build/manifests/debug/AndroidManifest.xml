@@ -816,7 +816,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:enabled="@bool/atLeastHoneycomb" android:label="@string/action_bar_tabs" android:name="com.example.android.apis.app.ActionBarTabs">
+        <activity android:label="@string/action_bar_tabs" android:name="com.example.android.apis.app.ActionBarTabs" android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.SAMPLE_CODE"/>
