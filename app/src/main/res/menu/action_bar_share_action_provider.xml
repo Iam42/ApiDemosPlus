@@ -13,16 +13,17 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:ApiDemos="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/menu_item_share_action_provider_action_bar"
         android:showAsAction="always"
         android:title="@string/action_bar_share_with"
-        android:actionProviderClass="android.widget.ShareActionProvider" />
+        ApiDemos:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
 
     <item android:id="@+id/menu_item_share_action_provider_overflow"
         android:showAsAction="never"
         android:title="@string/action_bar_share_with"
-        android:actionProviderClass="android.widget.ShareActionProvider" />
+        ApiDemos:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
 
 </menu>

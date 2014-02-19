@@ -830,7 +830,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:enabled="@bool/atLeastIceCreamSandwich" android:label="@string/action_bar_share_action_provider" android:name="com.example.android.apis.app.ActionBarShareActionProviderActivity">
+        <activity android:label="@string/action_bar_share_action_provider" android:name="com.example.android.apis.app.ActionBarShareActionProviderActivity" android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.SAMPLE_CODE"/>

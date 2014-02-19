@@ -16,14 +16,15 @@
 
 package com.example.android.apis.app;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.ShareActionProvider;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ShareActionProvider;
 
 import com.example.android.apis.R;
 
@@ -38,14 +39,14 @@ import java.io.InputStream;
  * a menu item with ShareActionProvider as its action provider. The
  * ShareActionProvider is responsible for managing the UI for sharing actions.
  */
-public class ActionBarShareActionProviderActivity extends Activity {
+public class ActionBarShareActionProviderActivity extends ActionBarActivity {
 
     private static final String SHARED_FILE_NAME = "shared.png";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        copyPrivateRawResuorceToPubliclyAccessibleFile();
+        copyPrivateRawResuorceToPubliclyAccessibleFile(R.raw.robot);
     }
 
     @Override
@@ -55,7 +56,7 @@ public class ActionBarShareActionProviderActivity extends Activity {
 
         // Set file with share history to the provider and set the share intent.
         MenuItem actionItem = menu.findItem(R.id.menu_item_share_action_provider_action_bar);
-        ShareActionProvider actionProvider = (ShareActionProvider) actionItem.getActionProvider();
+        ShareActionProvider actionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(actionItem);
         actionProvider.setShareHistoryFileName(ShareActionProvider.DEFAULT_SHARE_HISTORY_FILE_NAME);
         // Note that you can set/change the intent any time,
         // say when the user has selected an image.
@@ -64,7 +65,7 @@ public class ActionBarShareActionProviderActivity extends Activity {
         // Set file with share history to the provider and set the share intent.
         MenuItem overflowItem = menu.findItem(R.id.menu_item_share_action_provider_overflow);
         ShareActionProvider overflowProvider =
-            (ShareActionProvider) overflowItem.getActionProvider();
+            (ShareActionProvider) MenuItemCompat.getActionProvider(overflowItem);
         overflowProvider.setShareHistoryFileName(
             ShareActionProvider.DEFAULT_SHARE_HISTORY_FILE_NAME);
         // Note that you can set/change the intent any time,
@@ -91,11 +92,11 @@ public class ActionBarShareActionProviderActivity extends Activity {
      * Copies a private raw resource content to a publicly readable
      * file such that the latter can be shared with other applications.
      */
-    private void copyPrivateRawResuorceToPubliclyAccessibleFile() {
+    private void copyPrivateRawResuorceToPubliclyAccessibleFile(int resId) {
         InputStream inputStream = null;
         FileOutputStream outputStream = null;
         try {
-            inputStream = getResources().openRawResource(R.raw.robot);
+            inputStream = getResources().openRawResource(resId);
             outputStream = openFileOutput(SHARED_FILE_NAME,
                     Context.MODE_WORLD_READABLE | Context.MODE_APPEND);
             byte[] buffer = new byte[1024];

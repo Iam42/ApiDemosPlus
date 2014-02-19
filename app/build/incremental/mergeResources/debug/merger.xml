@@ -1353,6 +1353,9 @@
                 <dimen name="abc_action_bar_icon_vertical_padding" >8dip
                 </dimen>
 
+                <string name="abc_searchview_description_query" >Search query
+                </string>
+
                 <style
                     name="TextAppearance.AppCompat.Widget.Base.DropDownItem"
                     parent="android:TextAppearance.Small" >
@@ -1361,8 +1364,9 @@
                     </item>
                 </style>
 
-                <string name="abc_searchview_description_query" >Search query
-                </string>
+                <item
+                    name="home"
+                    type="id"/>
 
                 <declare-styleable name="MenuView" >
 
@@ -1384,24 +1388,20 @@
                     <attr name="android:preserveIconSpacing" />
                 </declare-styleable>
 
-                <item
-                    name="home"
-                    type="id"/>
+                <string name="abc_action_bar_up_description" >Navigate up
+                </string>
 
                 <attr
                     name="actionModeStyle"
                     format="reference" />
 
-                <string name="abc_action_bar_up_description" >Navigate up
-                </string>
+                <item
+                    name="action_bar_activity_content"
+                    type="id"/>
 
                 <attr
                     name="actionBarSplitStyle"
                     format="reference" />
-
-                <item
-                    name="action_bar_activity_content"
-                    type="id"/>
 
                 <style
                     name="Widget.AppCompat.ActionBar"
@@ -1557,19 +1557,18 @@ true
                     </item>
                 </style>
 
-                <attr
-                    name="actionModeCloseDrawable"
-                    format="reference" />
-
                 <dimen name="abc_action_bar_stacked_max_height" >48dp
                 </dimen>
 
-                <color name="abc_search_url_text_selected" >@android:color/black
-                </color>
-
+                <attr
+                    name="actionModeCloseDrawable"
+                    format="reference" />
                 <attr
                     name="searchViewTextField"
                     format="reference" />
+
+                <color name="abc_search_url_text_selected" >@android:color/black
+                </color>
 
                 <declare-styleable name="Spinner" >
 
@@ -1655,26 +1654,32 @@ middle
                 </style>
 
                 <style
-                    name="Widget.AppCompat.Light.ActionBar.TabText"
-                    parent="Widget.AppCompat.Light.Base.ActionBar.TabText" />
-
-                <style
                     name="Widget.AppCompat.ActionBar.TabBar"
                     parent="Widget.AppCompat.Base.ActionBar.TabBar" />
+
+                <style
+                    name="Widget.AppCompat.Light.ActionBar.TabText"
+                    parent="Widget.AppCompat.Light.Base.ActionBar.TabText" />
 
                 <attr
                     name="isLightTheme"
                     format="boolean" />
                 <attr
-                    name="textAppearanceSearchResultSubtitle"
+                    name="actionOverflowButtonStyle"
                     format="reference" />
                 <attr
-                    name="actionOverflowButtonStyle"
+                    name="textAppearanceSearchResultSubtitle"
                     format="reference" />
 
                 <style
                     name="Widget.AppCompat.ActivityChooserView"
                     parent="Widget.AppCompat.Base.ActivityChooserView" />
+
+                <string name="abc_action_menu_overflow_description" >More options
+                </string>
+
+                <dimen name="abc_action_bar_default_height" >48dip
+                </dimen>
 
                 <style
                     name="Widget.AppCompat.Light.Base.ActionBar.TabText.Inverse"
@@ -1683,12 +1688,6 @@ middle
 ?android:attr/textColorPrimaryInverseDisableOnly
                     </item>
                 </style>
-
-                <dimen name="abc_action_bar_default_height" >48dip
-                </dimen>
-
-                <string name="abc_action_menu_overflow_description" >More options
-                </string>
 
                 <style
                     name="Widget.AppCompat.Light.Base.ActionBar.TabText"
@@ -1704,6 +1703,10 @@ middle
                 <style
                     name="Widget.AppCompat.ActionBar.TabView"
                     parent="Widget.AppCompat.Base.ActionBar.TabView" />
+
+                <style
+                    name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse"
+                    parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle.Inverse" />
 
                 <style
                     name="Widget.AppCompat.Light.Base.ActionBar"
@@ -1731,10 +1734,6 @@ middle
                     </item>
                 </style>
 
-                <style
-                    name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse"
-                    parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle.Inverse" />
-
                 <attr
                     name="actionModeShareDrawable"
                     format="reference" />
@@ -1760,12 +1759,12 @@ normal
                     </item>
                 </style>
 
+                <string name="abc_shareactionprovider_share_with_application" >Share with %s
+                </string>
+
                 <attr
                     name="actionBarTabStyle"
                     format="reference" />
-
-                <string name="abc_shareactionprovider_share_with_application" >Share with %s
-                </string>
 
                 <style
                     name="Widget.AppCompat.Light.Base.PopupMenu"
@@ -1791,13 +1790,13 @@ wrap_content
                     name="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle"
                     parent="android:TextAppearance.Small" />
 
-                <attr
-                    name="actionBarItemBackground"
-                    format="reference" />
-
                 <integer name="abc_max_action_buttons" >
 2
                 </integer>
+
+                <attr
+                    name="actionBarItemBackground"
+                    format="reference" />
 
                 <style
                     name="Widget.AppCompat.Light.Base.ActionBar.TabBar.Inverse"
@@ -1808,12 +1807,12 @@ wrap_content
                     format="reference" />
 
                 <style
-                    name="Widget.AppCompat.Light.ActionButton"
-                    parent="Widget.AppCompat.Light.Base.ActionButton" />
-
-                <style
                     name="Widget.AppCompat.ActionMode"
                     parent="Widget.AppCompat.Base.ActionMode" />
+
+                <style
+                    name="Widget.AppCompat.Light.ActionButton"
+                    parent="Widget.AppCompat.Light.Base.ActionButton" />
 
                 <style
                     name="Widget.AppCompat.ListView.DropDown"
@@ -2602,6 +2601,9 @@ false
                     name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
                     parent="Widget.AppCompat.Light.Base.Spinner" />
 
+                <string name="abc_activitychooserview_choose_application" >Choose an app
+                </string>
+
                 <style
                     name="Theme.AppCompat.Light.DarkActionBar"
                     parent="Theme.Base.AppCompat.Light.DarkActionBar" >
@@ -2687,9 +2689,6 @@ true
                     </item>
                 </style>
 
-                <string name="abc_activitychooserview_choose_application" >Choose an app
-                </string>
-
                 <dimen name="abc_action_bar_title_text_size" >18dp
                 </dimen>
 
@@ -2723,15 +2722,14 @@ true
                     <!-- Whether the items are enabled. -->
                     <attr name="android:enabled" />
                 </declare-styleable>
-
-                <attr
-                    name="textColorSearchUrl"
-                    format="reference|color" />
-
                 <declare-styleable name="ActionMenuView" >
 
                     <!-- Size of padding on either end of a divider. -->
                 </declare-styleable>
+
+                <attr
+                    name="textColorSearchUrl"
+                    format="reference|color" />
 
                 <style
                     name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small"
@@ -2748,12 +2746,12 @@ true
 false
                 </bool>
 
+                <dimen name="abc_dropdownitem_icon_width" >32dip
+                </dimen>
+
                 <style
                     name="Widget.AppCompat.Light.Base.DropDownItem.Spinner"
                     parent="Widget.AppCompat.Base.DropDownItem.Spinner" />
-
-                <dimen name="abc_dropdownitem_icon_width" >32dip
-                </dimen>
 
                 <attr
                     name="listPreferredItemPaddingLeft"
@@ -2906,12 +2904,12 @@ true
                     format="reference" />
 
                 <style
-                    name="Widget.AppCompat.ListView.Menu"
-                    parent="Widget.AppCompat.Base.ListView.Menu" />
-
-                <style
                     name="Theme.AppCompat.CompactMenu"
                     parent="Theme.AppCompat.Base.CompactMenu" />
+
+                <style
+                    name="Widget.AppCompat.ListView.Menu"
+                    parent="Widget.AppCompat.Base.ListView.Menu" />
 
                 <style
                     name="Theme.Base.AppCompat.Light"
@@ -3060,6 +3058,23 @@ true
                     </item>
                 </style>
 
+                <string name="abc_activity_chooser_view_see_all" >See all
+                </string>
+
+                <dimen name="abc_search_view_text_min_width" >160dip
+                </dimen>
+
+                <style
+                    name="Theme.AppCompat.Base.CompactMenu"
+                    parent="" >
+                    <item name="android:itemTextAppearance">
+            @style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item
+                    </item>
+                    <item name="android:listViewStyle">
+@style/Widget.AppCompat.ListView.Menu
+                    </item>
+                </style>
+
                 <style
                     name="Widget.AppCompat.Base.PopupMenu"
                     parent="" >
@@ -3079,23 +3094,6 @@ true
 wrap_content
                     </item>
                 </style>
-
-                <style
-                    name="Theme.AppCompat.Base.CompactMenu"
-                    parent="" >
-                    <item name="android:itemTextAppearance">
-            @style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item
-                    </item>
-                    <item name="android:listViewStyle">
-@style/Widget.AppCompat.ListView.Menu
-                    </item>
-                </style>
-
-                <dimen name="abc_search_view_text_min_width" >160dip
-                </dimen>
-
-                <string name="abc_activity_chooser_view_see_all" >See all
-                </string>
 
                 <style
                     name="TextAppearance.AppCompat.SearchResult.Subtitle"
@@ -3136,12 +3134,12 @@ wrap_content
                 </string>
 
                 <style
-                    name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
-                    parent="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item" />
-
-                <style
                     name="TextAppearance.AppCompat.Widget.Base.ActionMode.Title.Inverse"
                     parent="android:TextAppearance.Medium.Inverse" />
+
+                <style
+                    name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+                    parent="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item" />
 
                 <style
                     name="Theme.AppCompat"
@@ -3228,6 +3226,9 @@ false
                     </item>
                 </style>
 
+                <dimen name="abc_config_prefDialogWidth" >320dp
+                </dimen>
+
                 <style
                     name="Widget.AppCompat.Light.Base.Spinner"
                     parent="Widget.AppCompat.Base.Spinner" >
@@ -3242,9 +3243,6 @@ false
                     </item>
                 </style>
 
-                <dimen name="abc_config_prefDialogWidth" >320dp
-                </dimen>
-
                 <declare-styleable name="ActionBarWindow" >
                     <attr
                         name="windowActionBar"
@@ -3257,13 +3255,14 @@ false
                         format="boolean" />
                 </declare-styleable>
 
+                <attr
+                    name="actionButtonStyle"
+                    format="reference" />
+
                 <style
                     name="Widget.AppCompat.Light.PopupMenu"
                     parent="Widget.AppCompat.Light.Base.PopupMenu" />
 
-                <attr
-                    name="actionButtonStyle"
-                    format="reference" />
                 <attr
                     name="searchViewAutoCompleteTextView"
                     format="reference" />
@@ -3276,27 +3275,27 @@ false
                     name="Widget.AppCompat.Light.ActionBar.TabView"
                     parent="Widget.AppCompat.Light.Base.ActionBar.TabView" />
 
-                <style
-                    name="Widget.AppCompat.Light.ActionBar.TabBar"
-                    parent="Widget.AppCompat.Light.Base.ActionBar.TabBar" />
-
                 <style name="TextAppearance.AppCompat.Base.SearchResult.Title" >
                     <item name="android:textSize">
 18sp
                     </item>
                 </style>
 
+                <style
+                    name="Widget.AppCompat.Light.ActionBar.TabBar"
+                    parent="Widget.AppCompat.Light.Base.ActionBar.TabBar" />
+
                 <attr
                     name="actionBarTabTextStyle"
                     format="reference" />
+                <attr
+                    name="searchResultListItemHeight"
+                    format="dimension" />
 
                 <style
                     name="Widget.AppCompat.ActionButton.Overflow"
                     parent="Widget.AppCompat.Base.ActionButton.Overflow" />
 
-                <attr
-                    name="searchResultListItemHeight"
-                    format="dimension" />
                 <attr
                     name="listPreferredItemHeight"
                     format="dimension" />
@@ -3341,6 +3340,9 @@ false
                 <style
                     name="Widget.AppCompat.Light.ActionButton.CloseMode"
                     parent="Widget.AppCompat.Light.Base.ActionButton.CloseMode" />
+
+                <dimen name="abc_action_bar_subtitle_top_margin" >-3dp
+                </dimen>
 
                 <style
                     name="Theme.Base.AppCompat.Light.DarkActionBar"
@@ -3406,9 +3408,6 @@ false
 @drawable/abc_list_selector_holo_dark
                     </item>
                 </style>
-
-                <dimen name="abc_action_bar_subtitle_top_margin" >-3dp
-                </dimen>
 
                 <style
                     name="TextAppearance.AppCompat.SearchResult.Title"
@@ -3481,6 +3480,9 @@ false
                     name="Widget.AppCompat.ProgressBar.Horizontal"
                     parent="Widget.AppCompat.Base.ProgressBar.Horizontal" />
 
+                <dimen name="abc_panel_menu_list_width" >296dp
+                </dimen>
+
                 <style
                     name="Widget.AppCompat.Light.Base.ActionButton.Overflow"
                     parent="Widget.AppCompat.Light.Base.ActionButton" >
@@ -3489,17 +3491,14 @@ false
                     </item>
                 </style>
 
-                <dimen name="abc_panel_menu_list_width" >296dp
-                </dimen>
-
-                <color name="abc_search_url_text_pressed" >@android:color/black
-                </color>
-
                 <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Title" >
                     <item name="android:textSize">
 18sp
                     </item>
                 </style>
+
+                <color name="abc_search_url_text_pressed" >@android:color/black
+                </color>
 
                 <style
                     name="Widget.AppCompat.Base.AutoCompleteTextView"
@@ -3543,13 +3542,13 @@ false
                     name="TextAppearance.AppCompat.Widget.ActionBar.Title"
                     parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title" />
 
-                <bool name="abc_split_action_bar_is_narrow" >
-true
-                </bool>
-
                 <attr
                     name="spinnerStyle"
                     format="reference" />
+
+                <bool name="abc_split_action_bar_is_narrow" >
+true
+                </bool>
 
                 <style
                     name="Widget.AppCompat.Light.Base.AutoCompleteTextView"
@@ -3658,11 +3657,6 @@ useLogo|showHome|showTitle
                     <!-- The input type to set on the query text field. -->
                     <attr name="android:inputType" />
                 </declare-styleable>
-
-                <style
-                    name="Theme.AppCompat.CompactMenu.Dialog"
-                    parent="Theme.AppCompat.Base.CompactMenu.Dialog" />
-
                 <declare-styleable name="ActionMode" >
 
                     <!-- Specifies a style to use for title text. -->
@@ -3678,6 +3672,10 @@ useLogo|showHome|showTitle
                 </declare-styleable>
 
                 <style
+                    name="Theme.AppCompat.CompactMenu.Dialog"
+                    parent="Theme.AppCompat.Base.CompactMenu.Dialog" />
+
+                <style
                     name="Widget.AppCompat.Light.Base.ActivityChooserView"
                     parent="Widget.AppCompat.Base.ActivityChooserView" >
                     <item name="android:background">
@@ -3688,13 +3686,12 @@ useLogo|showHome|showTitle
             <file
                 path="/Users/a42/Develop/android-project/ApiDemosPlus/app/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values-land/values.xml"
                 qualifiers="land" >
-                <dimen name="abc_action_bar_title_text_size" >16dp
-                </dimen>
-
                 <bool name="abc_config_allowActionMenuItemTextWithIcon" >
 true
                 </bool>
 
+                <dimen name="abc_action_bar_title_text_size" >16dp
+                </dimen>
                 <dimen name="abc_action_bar_icon_vertical_padding" >4dip
                 </dimen>
                 <dimen name="abc_action_bar_subtitle_top_margin" >-2dp
@@ -3797,10 +3794,6 @@ false
                     parent="android:Widget.Holo.AutoCompleteTextView" />
 
                 <style
-                    name="Widget.AppCompat.Base.ProgressBar"
-                    parent="android:Widget.Holo.ProgressBar" />
-
-                <style
                     name="Theme.Base"
                     parent="android:Theme.Holo" >
                     <item name="android:windowNoTitle">
@@ -3823,6 +3816,10 @@ false
                 </style>
 
                 <style
+                    name="Widget.AppCompat.Base.ProgressBar"
+                    parent="android:Widget.Holo.ProgressBar" />
+
+                <style
                     name="Widget.AppCompat.Base.ProgressBar.Horizontal"
                     parent="android:Widget.Holo.ProgressBar.Horizontal" />
             </file>
@@ -3831,12 +3828,12 @@ false
                 qualifiers="v14" >
 
                 <style
-                    name="Widget.AppCompat.Base.ActionButton"
-                    parent="android:Widget.Holo.ActionButton" />
-
-                <style
                     name="Widget.AppCompat.Light.Base.ActionBar.TabView"
                     parent="android:Widget.Holo.Light.ActionBar.TabView" />
+
+                <style
+                    name="Widget.AppCompat.Base.ActionButton"
+                    parent="android:Widget.Holo.ActionButton" />
 
                 <style
                     name="TextAppearance.AppCompat.Widget.Base.ActionMode.Title.Inverse"
@@ -3847,28 +3844,28 @@ false
                     parent="android:TextAppearance.Holo.Widget.ActionMode.Title" />
 
                 <style
-                    name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
-                    parent="android:TextAppearance.Holo.Widget.ActionBar.Title" />
-
-                <style
                     name="Widget.AppCompat.Light.Base.ActionBar.Solid"
                     parent="android:Widget.Holo.Light.ActionBar.Solid" />
+
+                <style
+                    name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    parent="android:TextAppearance.Holo.Widget.ActionBar.Title" />
 
                 <style
                     name="Widget.AppCompat.Base.ListView.DropDown"
                     parent="android:Widget.Holo.ListView.DropDown" />
 
                 <style
-                    name="Widget.AppCompat.Base.Spinner"
-                    parent="android:Widget.Holo.Spinner" />
+                    name="Widget.AppCompat.Base.ListView.Menu"
+                    parent="android:Widget.ListView.Menu" />
 
                 <style
                     name="Widget.AppCompat.Base.ActionBar.TabView"
                     parent="android:Widget.Holo.ActionBar.TabView" />
 
                 <style
-                    name="Widget.AppCompat.Base.ListView.Menu"
-                    parent="android:Widget.ListView.Menu" />
+                    name="Widget.AppCompat.Base.Spinner"
+                    parent="android:Widget.Holo.Spinner" />
 
                 <style
                     name="Widget.AppCompat.Light.Base.ActionBar.Solid.Inverse"
@@ -3982,12 +3979,12 @@ false
                     parent="android:Widget.Holo.Light.ActionBar.TabText.Inverse" />
 
                 <style
-                    name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small"
-                    parent="android:TextAppearance.Holo.Widget.PopupMenu.Small" />
-
-                <style
                     name="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Large"
                     parent="android:TextAppearance.Holo.Widget.PopupMenu.Large" />
+
+                <style
+                    name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small"
+                    parent="android:TextAppearance.Holo.Widget.PopupMenu.Small" />
 
                 <style
                     name="Widget.AppCompat.Base.ActivityChooserView"
@@ -4010,20 +4007,20 @@ middle
                 </style>
 
                 <style
-                    name="TextAppearance.AppCompat.Light.Base.SearchResult.Title"
-                    parent="@android:TextAppearance.Holo.SearchResult.Title" />
-
-                <style
                     name="Widget.AppCompat.Light.Base.ActionButton.Overflow"
                     parent="android:Widget.Holo.Light.ActionButton.Overflow" />
 
                 <style
-                    name="Widget.AppCompat.Light.Base.Spinner"
-                    parent="android:Widget.Holo.Light.Spinner" />
+                    name="TextAppearance.AppCompat.Light.Base.SearchResult.Title"
+                    parent="@android:TextAppearance.Holo.SearchResult.Title" />
 
                 <style
                     name="TextAppearance.AppCompat.Base.SearchResult.Subtitle"
                     parent="@android:TextAppearance.Holo.SearchResult.Subtitle" />
+
+                <style
+                    name="Widget.AppCompat.Light.Base.Spinner"
+                    parent="android:Widget.Holo.Light.Spinner" />
 
                 <style
                     name="Theme.Base.AppCompat"
@@ -4101,10 +4098,6 @@ middle
                     parent="android:TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse" />
 
                 <style
-                    name="Widget.AppCompat.Base.DropDownItem.Spinner"
-                    parent="android:Widget.Holo.DropDownItem.Spinner" />
-
-                <style
                     name="Theme.Base.AppCompat.Light"
                     parent="android:Theme.Holo.Light" >
 
@@ -4164,24 +4157,28 @@ middle
                 </style>
 
                 <style
-                    name="Widget.AppCompat.Light.Base.PopupMenu"
-                    parent="android:Widget.Holo.Light.PopupMenu" />
+                    name="Widget.AppCompat.Base.DropDownItem.Spinner"
+                    parent="android:Widget.Holo.DropDownItem.Spinner" />
 
                 <style
-                    name="Widget.AppCompat.Base.ActionBar.TabBar"
-                    parent="android:Widget.Holo.ActionBar.TabBar" />
+                    name="Widget.AppCompat.Light.Base.PopupMenu"
+                    parent="android:Widget.Holo.Light.PopupMenu" />
 
                 <style
                     name="TextAppearance.AppCompat.Base.SearchResult.Title"
                     parent="@android:TextAppearance.Holo.SearchResult.Title" />
 
                 <style
-                    name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title.Inverse"
-                    parent="android:TextAppearance.Holo.Widget.ActionBar.Title.Inverse" />
+                    name="Widget.AppCompat.Base.ActionBar.TabBar"
+                    parent="android:Widget.Holo.ActionBar.TabBar" />
 
                 <style
                     name="Widget.AppCompat.Light.Base.ActionBar"
                     parent="android:Widget.Holo.Light.ActionBar" />
+
+                <style
+                    name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title.Inverse"
+                    parent="android:TextAppearance.Holo.Widget.ActionBar.Title.Inverse" />
 
                 <style
                     name="Widget.AppCompat.Base.PopupMenu"
@@ -4192,12 +4189,12 @@ middle
                     parent="@android:TextAppearance.Holo.SearchResult.Subtitle" />
 
                 <style
-                    name="TextAppearance.AppCompat.Widget.Base.ActionBar.Menu"
-                    parent="android:TextAppearance.Holo.Widget.ActionBar.Menu" />
-
-                <style
                     name="Widget.AppCompat.Base.ActionButton.CloseMode"
                     parent="android:Widget.Holo.ActionButton.CloseMode" />
+
+                <style
+                    name="TextAppearance.AppCompat.Widget.Base.ActionBar.Menu"
+                    parent="android:TextAppearance.Holo.Widget.ActionBar.Menu" />
 
                 <style
                     name="Widget.AppCompat.Base.ActionButton.Overflow"
@@ -4228,11 +4225,11 @@ middle
                 <bool name="abc_config_allowActionMenuItemTextWithIcon" >
 true
                 </bool>
-                <bool name="abc_split_action_bar_is_narrow" >
-false
-                </bool>
                 <bool name="abc_action_bar_embed_tabs_pre_jb" >
 true
+                </bool>
+                <bool name="abc_split_action_bar_is_narrow" >
+false
                 </bool>
             </file>
             <file
@@ -4262,9 +4259,9 @@ true
                 </dimen>
                 <dimen name="abc_action_bar_default_height" >56dip
                 </dimen>
-                <dimen name="abc_search_view_text_min_width" >192dip
-                </dimen>
                 <dimen name="abc_action_button_min_width" >64dip
+                </dimen>
+                <dimen name="abc_search_view_text_min_width" >192dip
                 </dimen>
             </file>
             <file
@@ -4288,20 +4285,20 @@ false
                 </dimen>
                 <dimen name="abc_action_bar_subtitle_text_size" >14dp
                 </dimen>
-                <dimen name="abc_action_bar_subtitle_top_margin" >-3dp
-                </dimen>
 
                 <bool name="abc_action_bar_expanded_action_views_exclusive" >
 false
                 </bool>
 
-                <dimen name="abc_action_bar_subtitle_bottom_margin" >9dip
+                <dimen name="abc_action_bar_subtitle_top_margin" >-3dp
                 </dimen>
                 <dimen name="abc_action_bar_default_height" >56dip
                 </dimen>
-                <dimen name="abc_action_button_min_width" >64dip
+                <dimen name="abc_action_bar_subtitle_bottom_margin" >9dip
                 </dimen>
                 <dimen name="abc_action_bar_title_text_size" >18dp
+                </dimen>
+                <dimen name="abc_action_button_min_width" >64dip
                 </dimen>
             </file>
         </source>
@@ -7261,17 +7258,6 @@ Pluto
 *bzzt*\nGo away...
                     </item>
                 </string-array>
-                <string-array name="entryvalues_list_preference" >
-                    <item>
-alpha
-                    </item>
-                    <item>
-beta
-                    </item>
-                    <item>
-charlie
-                    </item>
-                </string-array>
                 <string-array name="motogp_constructors" >
                     <item>
 Yamaha
@@ -7464,6 +7450,17 @@ Gilera
                     </item>
                     <item>
 AJS
+                    </item>
+                </string-array>
+                <string-array name="entryvalues_list_preference" >
+                    <item>
+alpha
+                    </item>
+                    <item>
+beta
+                    </item>
+                    <item>
+charlie
                     </item>
                 </string-array>
                 <string-array name="select_dialog_items2" >
@@ -7664,19 +7661,19 @@ LOCKED
                 <bool name="atLeastKitKat" >
 false
                 </bool>
-                <bool name="atLeastJellyBeanMR2" >
+                <bool name="atLeastHoneycombMR2" >
 false
                 </bool>
-                <bool name="atLeastHoneycombMR2" >
+                <bool name="atLeastJellyBeanMR2" >
 false
                 </bool>
                 <bool name="atLeastIceCreamSandwich" >
 false
                 </bool>
-                <bool name="atLeastJellyBeanMR1" >
+                <bool name="atLeastHoneycomb" >
 false
                 </bool>
-                <bool name="atLeastHoneycomb" >
+                <bool name="atLeastJellyBeanMR1" >
 false
                 </bool>
                 <bool name="atLeastJellyBean" >
@@ -7762,9 +7759,9 @@ false
                 </string>
                 <string name="encryption_status_unsupported" >unsupported
                 </string>
-                <string name="again" >Again
-                </string>
                 <string name="status_bar_notification_title" >Sample Notification
+                </string>
+                <string name="again" >Again
                 </string>
                 <string name="fragment2menu" >Show fragment 2 menu
                 </string>
@@ -7780,9 +7777,9 @@ false
                 <string name="fragment_context_menu_msg" >Fragment populating a context
             menu; long press the button to see.
                 </string>
-                <string name="launch_preferences" >Launch preferences
-                </string>
                 <string name="remote_service_connected" >Connected to remote service
+                </string>
+                <string name="launch_preferences" >Launch preferences
                 </string>
                 <string name="image_view_large_exactly_padded" >Large image scaled to exactly 70x70 with padding
                 </string>
@@ -7851,8 +7848,12 @@ false
                 </string>
                 <string name="ir_send" >Send IR
                 </string>
-                <string name="accessibility_custom_on" >On
-                </string>
+                <string name="hello_world" ><b>
+Hello, 
+                        <i>
+World!
+                        </i>
+                    </b></string>
                 <string name="secure_window_activity_text" >This activity demonstrates how to make an activity
             use a secure surface so that its contents will only be visible on secure displays.
             The activity\'s window has been marked with FLAG_SECURE to make it use a secure surface.
@@ -7861,12 +7862,8 @@ false
             \n
             I am a secure activity!
                 </string>
-                <string name="hello_world" ><b>
-Hello, 
-                        <i>
-World!
-                        </i>
-                    </b></string>
+                <string name="accessibility_custom_on" >On
+                </string>
                 <string name="table_layout_8_open" >Open\u2026
                 </string>
                 <string name="table_layout_1_save_shortcut" >(Save Document)
@@ -7885,11 +7882,11 @@ World!
                 </string>
                 <string name="activity_redirect" >App/Activity/Redirection
                 </string>
-                <string name="redirect_main" >You now see the main activity running normally because the user text has been set to:
+                <string name="seekbar_tracking_off" >Tracking off
                 </string>
                 <string name="fragment_menu" >App/Fragment/Menu
                 </string>
-                <string name="seekbar_tracking_off" >Tracking off
+                <string name="redirect_main" >You now see the main activity running normally because the user text has been set to:
                 </string>
                 <string name="animation_2_text_4" >— Albert Camus
                 </string>
@@ -7899,32 +7896,32 @@ World!
                 </string>
                 <string name="status_bar_notifications_mood_title" >Mood ring
                 </string>
-                <string name="wipe_data_summary" >Wipe internal data, like a factory reset
-                </string>
                 <string name="animation_2_text_2" >is nothing else but
+                </string>
+                <string name="wipe_data_summary" >Wipe internal data, like a factory reset
                 </string>
                 <string name="animation_2_text_3" >a chance to be better.
                 </string>
                 <string name="autocomplete_3_button" >Button
                 </string>
-                <string name="animation_2_text_1" >Freedom
-                </string>
                 <string name="autocomplete_4_name" >Name:
                 </string>
+                <string name="animation_2_text_1" >Freedom
+                </string>
                 <string name="grid_layout_1_cancel" >Cancel
+                </string>
+                <string name="autocomplete_6_to_hint" >To
+                </string>
+                <string name="speak_button" >Speak!
                 </string>
                 <string name="fragment_dialog_or_activity_msg" >Demonstrates the same fragment
             being shown as a dialog and embedded inside of an activity.
                 </string>
-                <string name="speak_button" >Speak!
-                </string>
-                <string name="autocomplete_6_to_hint" >To
-                </string>
                 <string name="copy_intent" >Copy Intent
                 </string>
-                <string name="image_view_small_at_most" >Small image scaled to at most 50x50
-                </string>
                 <string name="table_layout_9_export" >Export\u2026
+                </string>
+                <string name="image_view_small_at_most" >Small image scaled to at most 50x50
                 </string>
                 <string name="presentation_activity_text" >This activity demonstrates how to use a
                   Presentation and the DisplayManager to show content on other Displays.\n
@@ -7945,9 +7942,9 @@ World!
                 </string>
                 <string name="styled_text_rsrc" >Initialized from a resource:
                 </string>
-                <string name="keystore_plaintext" >Plaintext:
-                </string>
                 <string name="summary_off_advanced_toggle_preference" >I\'m off! :(
+                </string>
+                <string name="keystore_plaintext" >Plaintext:
                 </string>
                 <string name="alert_dialog_two_buttons_msg" >Header title
                 </string>
@@ -8159,15 +8156,15 @@ World!
                 </string>
                 <string name="status_days_hours_minutes" >%1$sd %2$sh %3$sm
                 </string>
-                <string name="lock_wipe_category" >Lock screen / Wipe
-                </string>
                 <string name="autocomplete_5_hint" >Typing * will show all of your contacts.
+                </string>
+                <string name="lock_wipe_category" >Lock screen / Wipe
                 </string>
                 <string name="table_layout_5_save_as" >Save As\u2026
                 </string>
-                <string name="task_complete_template" >Task %1$s %2$s
-                </string>
                 <string name="accessibility_query_window" >Accessibility/Accessibility Node Querying
+                </string>
+                <string name="task_complete_template" >Task %1$s %2$s
                 </string>
                 <string name="googlelogin_err" >Use a better username and password, please.
                 </string>
@@ -8187,27 +8184,27 @@ World!
                     </ns1:g></string>
                 <string name="status_device_encryption" >Device encryption status=%1$s
                 </string>
-                <string name="presentation_alert_info_text" >Display #%1$d Info
+                <string name="autocomplete_4_message" >You must have contacts in your address book. Typing * will show all of your contacts.
                 </string>
                 <string name="password_minimum_upper_case" >Minimum upper case
                 </string>
-                <string name="autocomplete_4_message" >You must have contacts in your address book. Typing * will show all of your contacts.
-                </string>
-                <string name="table_layout_6_export_shortcut" >Ctrl-E
+                <string name="presentation_alert_info_text" >Display #%1$d Info
                 </string>
                 <string name="linear_layout_9_button" >Button
                 </string>
-                <string name="scroll_view_1_text_1" >Text View 1
+                <string name="table_layout_6_export_shortcut" >Ctrl-E
                 </string>
                 <string name="reorder_launch_four" >Go to the fourth
+                </string>
+                <string name="scroll_view_1_text_1" >Text View 1
                 </string>
                 <string name="local_service_connected" >Connected to local service
                 </string>
                 <string name="pick_person" >Pick a Person
                 </string>
-                <string name="scroll_view_1_text_5" >Text View 5
-                </string>
                 <string name="alert_dialog_two_buttons_holo_light" >OK Cancel dialog with Holo Light theme
+                </string>
+                <string name="scroll_view_1_text_5" >Text View 5
                 </string>
                 <string name="scroll_view_1_text_4" >Text View 4
                 </string>
@@ -8218,9 +8215,9 @@ World!
                 <string name="alert_dialog_two_buttons_title" >        Lorem ipsum dolor sit aie consectetur adipiscing\nPlloaso mako nuto
         siwuf cakso dodtos anr koop.
                 </string>
-                <string name="scroll_view_1_text_6" >Text View 6
-                </string>
                 <string name="randomize" >Randomize
+                </string>
+                <string name="scroll_view_1_text_6" >Text View 6
                 </string>
                 <string name="table_layout_2_path_1" >~/path/to/file/to/open
                 </string>
@@ -8243,13 +8240,13 @@ World!
                 </string>
                 <string name="template_screen_off" >Screen off. Volume %1$s percent.
                 </string>
-                <string name="summary_screen_preference" >Shows another screen of preferences
-                </string>
-                <string name="app_update_received" >ApiDemos has been updated!
+                <string name="game_controller_input_heading_keys" >Keys and Buttons
                 </string>
                 <string name="keyguard_widgets_enabled" >Keyguard widgets enabled
                 </string>
-                <string name="game_controller_input_heading_keys" >Keys and Buttons
+                <string name="app_update_received" >ApiDemos has been updated!
+                </string>
+                <string name="summary_screen_preference" >Shows another screen of preferences
                 </string>
                 <string name="table_layout_4_save_shortcut" >Ctrl-Shift-S
                 </string>
@@ -8277,9 +8274,9 @@ World!
                 </string>
                 <string name="btn_add_tab" >Add new tab
                 </string>
-                <string name="activity_clipboard" >Content/Clipboard/Data Types
-                </string>
                 <string name="animation_2_instructions" >Select an animation:
+                </string>
+                <string name="activity_clipboard" >Content/Clipboard/Data Types
                 </string>
                 <string name="table_layout_1_open" >Open\u2026
                 </string>
@@ -8295,15 +8292,15 @@ World!
                 </string>
                 <string name="label_search_query_prefill" >"Prefill query: "
                 </string>
-                <string name="repeating_unscheduled" >Repeating alarm has been unscheduled
-                </string>
                 <string name="linear_layout_6_three" >This is the third one
+                </string>
+                <string name="repeating_unscheduled" >Repeating alarm has been unscheduled
                 </string>
                 <string name="get_image" >Get Image
                 </string>
-                <string name="activity_presentation" >App/Activity/Presentation
-                </string>
                 <string name="progressbar_1_secondary_progress" >Secondary progress:
+                </string>
+                <string name="activity_presentation" >App/Activity/Presentation
                 </string>
                 <string name="voice_recognition_prompt" >This activity demonstrates the voice recognition APIs.
                 </string>
@@ -8323,15 +8320,15 @@ World!
                 </string>
                 <string name="status_local_global" >Local=%1$s / Global=%2$s
                 </string>
-                <string name="alarm_service_label" >Sample Alarm Service
+                <string name="receive_result_result" >Get Result
                 </string>
                 <string name="dialog_activity_remove" >Remove content
                 </string>
-                <string name="receive_result_result" >Get Result
-                </string>
-                <string name="custom_title_right_button" >Change Right
+                <string name="alarm_service_label" >Sample Alarm Service
                 </string>
                 <string name="admin_receiver_status_disabled" >disabled
+                </string>
+                <string name="custom_title_right_button" >Change Right
                 </string>
                 <string name="relative_layout_1_top" >Top
                 </string>
@@ -8349,11 +8346,11 @@ World!
                 </string>
                 <string name="persistent_msg" >Demonstration of persistent activity state with getPreferences(0).edit() and getPreferences(0).
                 </string>
-                <string name="preference_dependencies" >Preference/3. Preference dependencies
+                <string name="long_notification_text" >This is a long notification.  See, you might need a second more to read it.
                 </string>
                 <string name="undo" >Undo
                 </string>
-                <string name="long_notification_text" >This is a long notification.  See, you might need a second more to read it.
+                <string name="preference_dependencies" >Preference/3. Preference dependencies
                 </string>
                 <string name="split_touch_view_cheese_toast" >Do you have any %1$s?\n%2$s
                 </string>
@@ -8371,16 +8368,16 @@ World!
                 </string>
                 <string name="toggle_show_title" >DISPLAY_SHOW_TITLE
                 </string>
+                <string name="radio_group_1_selection" >You have selected: (none)
+                </string>
                 <string name="custom_dialog_activity_text" >Example of how you can use a
             custom Theme.Dialog theme to make an activity that looks like a
             customized dialog, here with an ugly frame.
                 </string>
-                <string name="radio_group_1_selection" >You have selected: (none)
-                </string>
-                <string name="status_bar_notifications_default_all" >All
-                </string>
                 <string name="local_service_controller" >This demonstrates how you can implement persistent services that
         may be started and stopped as desired.
+                </string>
+                <string name="status_bar_notifications_default_all" >All
                 </string>
                 <string name="activity_intents" >App/Activity/Intents
                 </string>
@@ -8400,27 +8397,27 @@ World!
                 </string>
                 <string name="remote_service_label" >Sample Remote Service
                 </string>
-                <string name="status_bar_notifications_sad_message" >I am sad
-                </string>
                 <string name="activity_alarm_controller" >App/Alarm/Alarm Controller
+                </string>
+                <string name="status_bar_notifications_sad_message" >I am sad
                 </string>
                 <string name="admin_receiver_status" >Sample Device Admin: %1$s
                 </string>
                 <string name="dive" >Dive
                 </string>
-                <string name="alert_dialog_select_button" >List dialog
-                </string>
                 <string name="pick_contact_msg" >Invoke Contacts to pick various kinds of
         contact data.  None of these require that the caller hold the
         READ_CONTACTS permission.
+                </string>
+                <string name="alert_dialog_select_button" >List dialog
                 </string>
                 <string name="activity_secure_dialog" >App/Activity/Secure Surfaces/Secure Dialog
                 </string>
                 <string name="encryption_not_supported_ok" >OK
                 </string>
-                <string name="monkey_ok" >I admit defeat
-                </string>
                 <string name="rotation_animation_choices" >Rotation Animation:
+                </string>
+                <string name="monkey_ok" >I admit defeat
                 </string>
                 <string name="encryption_status_inactive" >inactive
                 </string>
@@ -8428,9 +8425,9 @@ World!
                 </string>
                 <string name="table_layout_6_save_as" >Save As\u2026
                 </string>
-                <string name="print_html_from_screen" >App/Print/Print HTML from screen
-                </string>
                 <string name="secure_view_caught_dialog_title" >Saved!
+                </string>
+                <string name="print_html_from_screen" >App/Print/Print HTML from screen
                 </string>
                 <string name="table_layout_5_export" >Export\u2026
                 </string>
@@ -8448,9 +8445,9 @@ World!
                 </string>
                 <string name="service_created" >Service created.
                 </string>
-                <string name="notify_with_text_long_notify_text" >Show Long Notification
-                </string>
                 <string name="alarm_service_started" >The alarm service has started running
+                </string>
+                <string name="notify_with_text_long_notify_text" >Show Long Notification
                 </string>
                 <string name="chronometer_clear_format" >Clear format string
                 </string>
@@ -8461,13 +8458,13 @@ World!
                 <string name="google_login_username_text" ></string>
                 <string name="incoming_message_info_message_text" >this is the text of a previous message.\nkthx. meet u for dinner. cul8r
                 </string>
-                <string name="visibility_1_vis" >Vis
-                </string>
                 <string name="tabs_1_tab_2" >tab2
                 </string>
-                <string name="table_layout_6_open" >Open\u2026
+                <string name="visibility_1_vis" >Vis
                 </string>
                 <string name="tabs_1_tab_1" >tab1
+                </string>
+                <string name="table_layout_6_open" >Open\u2026
                 </string>
                 <string name="action_bar_search" >Search
                 </string>
@@ -8483,22 +8480,22 @@ World!
                 </string>
                 <string name="preference_with_headers" >Preference/8. Headers
                 </string>
-                <string name="table_layout_5_export_shortcut" >Ctrl-E
+                <string name="tabs_1_tab_3" >tab3
                 </string>
                 <string name="text_to_speech" >App/Text-To-Speech
                 </string>
-                <string name="tabs_1_tab_3" >tab3
-                </string>
-                <string name="browser_bookmark" >Bookmark
+                <string name="table_layout_5_export_shortcut" >Ctrl-E
                 </string>
                 <string name="rotation_animation_description" >            Change the default rotation animation from rotating to fade or jumpcut.
             Only works if FLAG_FULLSCREEN is set and there are no dialogs up.
             Try rotating with and without the Power Off dialog visible.
                 </string>
-                <string name="table_layout_9_import" >Import\u2026
+                <string name="browser_bookmark" >Bookmark
                 </string>
                 <string name="remote_service_controller" >This demonstrates how you can implement persistent services
         running in a separate process that may be started and stopped as desired.
+                </string>
+                <string name="table_layout_9_import" >Import\u2026
                 </string>
                 <string name="secure_view_step4_heading" >Custom filtering demo:
                 </string>
@@ -8507,23 +8504,23 @@ World!
                 </string>
                 <string name="start_service_1" >Start Service 1
                 </string>
-                <string name="last_least_often" >Last least often
-                </string>
                 <string name="start_service_2" >Start Service 2
+                </string>
+                <string name="last_least_often" >Last least often
                 </string>
                 <string name="msg_search" >This activity shows a few different ways to invoke search, and inserts context-specific data for use by the search activity.
                 </string>
-                <string name="dismiss" >Dismiss
-                </string>
                 <string name="summary_intent_preference" >Launches an Activity from an Intent
+                </string>
+                <string name="dismiss" >Dismiss
                 </string>
                 <string name="reorder_second_to_front" >Bring the second in front
                 </string>
                 <string name="reset_password_ok" >Don\'t forget it
                 </string>
-                <string name="hover_message_entered_at" >Entered the container at (%1$f,%2$f).
-                </string>
                 <string name="autocomplete_5_name" >Name:
+                </string>
+                <string name="hover_message_entered_at" >Entered the container at (%1$f,%2$f).
                 </string>
                 <string name="fragment_layout" >App/Fragment/Layout
                 </string>
@@ -8531,9 +8528,9 @@ World!
                 </string>
                 <string name="intents" >Example of launching various Intents.
                 </string>
-                <string name="rotation_animation_rotate" >ROTATE
-                </string>
                 <string name="short_center_notification" >Short center.
+                </string>
+                <string name="rotation_animation_rotate" >ROTATE
                 </string>
                 <string name="keystore_entries_list" >List of entries:
                 </string>
@@ -8541,14 +8538,14 @@ World!
         \n\n2. Enable Explore-by-Touch (Settings -> Accessibility -> Explore by Touch).
         \n\n3. Touch explore/poke the buttons.
                 </string>
+                <string name="wipe_all_data_summary" >Wipe internal data and external storage
+                </string>
                 <string name="startfail_service" >Start failed delivery
                 </string>
-                <string name="wipe_all_data_summary" >Wipe internal data and external storage
+                <string name="layout_animation_phone" >Phone:
                 </string>
                 <string name="wipe_warning_second_full" >This is not a test. This WILL erase all of your data,
         including external storage! Are you really absolutely sure?
-                </string>
-                <string name="layout_animation_phone" >Phone:
                 </string>
                 <string name="autocomplete_7_country" >Country:
                 </string>
@@ -9489,31 +9486,31 @@ text1: Various kinds
                 </string>
                 <string name="password_quality_category" >Password quality
                 </string>
-                <string name="linear_layout_1_top" >This is the top view.
-                </string>
                 <string name="progressbar_1_default_progress" >Default progress:
+                </string>
+                <string name="linear_layout_1_top" >This is the top view.
                 </string>
                 <string name="sms_speak_string_format" >Message from "%1$s": %2$s
                 </string>
-                <string name="focus_5_button5" >5
-                </string>
                 <string name="linear_layout_2_middle" >This is the middle view. It has more text in it than either the top view or the bottom view.
                 </string>
-                <string name="table_layout_1_save" >Save As\u2026
-                </string>
-                <string name="linear_layout_10_from" >From:
+                <string name="focus_5_button5" >5
                 </string>
                 <string name="focus_5_button3" >3
                 </string>
-                <string name="remote_service_started" >Remote service has started
+                <string name="linear_layout_10_from" >From:
+                </string>
+                <string name="table_layout_1_save" >Save As\u2026
                 </string>
                 <string name="focus_5_button4" >4
                 </string>
+                <string name="remote_service_started" >Remote service has started
+                </string>
                 <string name="focus_5_button1" >1
                 </string>
-                <string name="alert_dialog_two_buttons" >OK Cancel dialog with a message
-                </string>
                 <string name="focus_5_button2" >2
+                </string>
+                <string name="alert_dialog_two_buttons" >OK Cancel dialog with a message
                 </string>
                 <string name="linear_layout_1_bottom" >This is the bottom view.
                 </string>
@@ -9527,9 +9524,9 @@ text1: Various kinds
                 </string>
                 <string name="appwidget_prefix_default" >Oh hai
                 </string>
-                <string name="show" >Show
-                </string>
                 <string name="action_bar_tabs" >App/Action Bar/Action Bar Tabs
+                </string>
+                <string name="show" >Show
                 </string>
                 <string name="launching_preferences" >Preference/2. Launching preferences
                 </string>
@@ -9541,33 +9538,33 @@ text1: Various kinds
                 </string>
                 <string name="bind_service_2" >Bind Service 2
                 </string>
-                <string name="stop_alarm_service" >Stop Alarm Service
-                </string>
                 <string name="kill_process" >Kill Process
+                </string>
+                <string name="stop_alarm_service" >Stop Alarm Service
                 </string>
                 <string name="bind_service_1" >Bind Service 1
                 </string>
                 <string name="searchview_hint" >Find something
                 </string>
-                <string name="status_bar_notifications_icons_only" >Icons only
-                </string>
                 <string name="soft_input_modes_label" >Resize mode: 
+                </string>
+                <string name="status_bar_notifications_icons_only" >Icons only
                 </string>
                 <string name="activity_secure_window" >App/Activity/Secure Surfaces/Secure Window
                 </string>
                 <string name="baseline_1_bigger" >Bigger
                 </string>
-                <string name="summary_fragment_preference" >Shows another fragment of preferences
-                </string>
                 <string name="sig_motion_enabled" >Significant Motion Sensor Enabled
+                </string>
+                <string name="summary_fragment_preference" >Shows another fragment of preferences
                 </string>
                 <string name="password_expiration_timeout" >Password expiration timeout (minutes)
                 </string>
                 <string name="controls_1_checkbox_2" >Checkbox 2
                 </string>
-                <string name="controls_1_checkbox_1" >Checkbox 1
-                </string>
                 <string name="focus_3_top" >top
+                </string>
+                <string name="controls_1_checkbox_1" >Checkbox 1
                 </string>
                 <string name="hover_intercept_message_initial" >Try hovering over the button.
                 </string>
@@ -9592,11 +9589,11 @@ text1: Various kinds
                 </string>
                 <string name="resources_layout_reference_default" >Default layout
                 </string>
-                <string name="table_layout_7_open" >Open\u2026
+                <string name="default_value_edittext_preference" >Default value
                 </string>
                 <string name="table_layout_3_star" >*
                 </string>
-                <string name="default_value_edittext_preference" >Default value
+                <string name="table_layout_7_open" >Open\u2026
                 </string>
                 <string name="open_menu" >Open menu
                 </string>
@@ -9612,10 +9609,10 @@ text1: Various kinds
                 </string>
                 <string name="activity_recreate" >App/Activity/Recreate
                 </string>
-                <string name="buttons_1_small_down" >S D
-                </string>
                 <string name="resources_smallest_width_description" >The layouts below use -swNNNdp
         to select between different versions based on the size of the screen.
+                </string>
+                <string name="buttons_1_small_down" >S D
                 </string>
                 <string name="radio_group_selection" >"You have selected: "
                 </string>
@@ -9625,11 +9622,13 @@ text1: Various kinds
                 </string>
                 <string name="start2_service" >Start \"Two\" no redeliver
                 </string>
-                <string name="pick_address" >Pick an Address
-                </string>
                 <string name="close_search" >Iconify
                 </string>
+                <string name="pick_address" >Pick an Address
+                </string>
                 <string name="summary_my_preference" >This is a custom counter preference
+                </string>
+                <string name="focus_2_jump" >jump over me from L to R
                 </string>
                 <string name="styled_text" >Plain, 
 <b>
@@ -9643,8 +9642,6 @@ italic
 bold-italic
                         </i>
                     </b></string>
-                <string name="focus_2_jump" >jump over me from L to R
-                </string>
                 <string name="baseline_7_lean" >Slim and slick.
                 </string>
                 <string name="expiration_status_past" >Password expired %1$s ago
@@ -9656,35 +9653,35 @@ bold-italic
                 </string>
                 <string name="hide_me" >Hide Me!
                 </string>
-                <string name="accessibility_query_window_label" >QueryBack
-                </string>
                 <string name="title_next_screen_toggle_preference" >Toggle preference
                 </string>
-                <string name="title_advanced_toggle_preference" >Haunted preference
+                <string name="accessibility_query_window_label" >QueryBack
                 </string>
                 <string name="autocomplete_1_focus" >Give me Focus
                 </string>
-                <string name="remote_service_stopped" >Remote service has stopped
+                <string name="title_advanced_toggle_preference" >Haunted preference
                 </string>
-                <string name="dialog_based_preferences" >Dialog-based preferences
+                <string name="remote_service_stopped" >Remote service has stopped
                 </string>
                 <string name="encryption_status_active" >active
                 </string>
-                <string name="pause" >Pause
+                <string name="dialog_based_preferences" >Dialog-based preferences
                 </string>
-                <string name="listSeparatorTextViewStyle" >listSeparatorTextViewStyle
+                <string name="pause" >Pause
                 </string>
                 <string name="flag_activity_clear_task_pi" >FLAG_ACTIVITY_CLEAR_TASK (PI)
                 </string>
-                <string name="activity_animation_msg" >Press a button to launch an activity with a custom animation.
+                <string name="listSeparatorTextViewStyle" >listSeparatorTextViewStyle
                 </string>
                 <string name="focus_2_left" >left
                 </string>
+                <string name="activity_animation_msg" >Press a button to launch an activity with a custom animation.
+                </string>
                 <string name="fragment_arguments_embedded_land" >Landscape Only
                 </string>
-                <string name="accessibility_custom_view" >Accessibility/Custom View
-                </string>
                 <string name="radio_group_1_clear" >Clear
+                </string>
+                <string name="accessibility_custom_view" >Accessibility/Custom View
                 </string>
                 <string name="action_bar_share" >Share
                 </string>
@@ -9699,16 +9696,16 @@ bold-italic
                 </string>
                 <string name="game_controller_input_heading_axes" >Axes
                 </string>
-                <string name="fragment_nesting_tabs" >App/Fragment/Nesting Tabs
-                </string>
                 <string name="sample_device_admin_description" >Sample code for writing
         a DeviceAdmin class.  This implementation provides a UI (in ApiDemos)
         for you to directly control what the DeviceAdmin does with the
         system.
                 </string>
-                <string name="radio_group_snack" >Snack
+                <string name="fragment_nesting_tabs" >App/Fragment/Nesting Tabs
                 </string>
                 <string name="linear_layout_5_cancel" >Cancel
+                </string>
+                <string name="radio_group_snack" >Snack
                 </string>
                 <string name="stop_service" >Stop Service
                 </string>
@@ -9719,6 +9716,12 @@ bold-italic
                 </string>
                 <string name="print" >Print
                 </string>
+                <string name="sample_shortcuts" >ApiDemos
+                </string>
+                <string name="local_sample" >This demonstrates an Instrumentation that runs against
+        one of our own classes.  Note that this activity will be killed as
+        a side-effect of starting instrumentation on its own application.
+                </string>
                 <string name="activity_styled_text" >Content/Resources/
 <i>
 Styled
@@ -9726,12 +9729,6 @@ Styled
 <b>
 Text
                     </b></string>
-                <string name="local_sample" >This demonstrates an Instrumentation that runs against
-        one of our own classes.  Note that this activity will be killed as
-        a side-effect of starting instrumentation on its own application.
-                </string>
-                <string name="sample_shortcuts" >ApiDemos
-                </string>
                 <string name="email_reply" >Reply
                 </string>
                 <string name="get_music" >Get Music
@@ -9752,9 +9749,9 @@ Text
                 </string>
                 <string name="wipe_data" >Wipe data
                 </string>
-                <string name="alert_dialog_password" >Password:
-                </string>
                 <string name="activity_local_service_controller" >App/Service/Local Service Controller
+                </string>
+                <string name="alert_dialog_password" >Password:
                 </string>
                 <string name="local_service_started" >Local service has started
                 </string>
@@ -9772,9 +9769,9 @@ Text
 <ns1:g id="time" >
 %2$s
                     </ns1:g></string>
-                <string name="password_quality" >Password quality
-                </string>
                 <string name="game_controller_input_label_device_name" >Name
+                </string>
+                <string name="password_quality" >Password quality
                 </string>
                 <string name="autocomplete_2_country" >Country:
                 </string>
@@ -9787,10 +9784,10 @@ Text
                 </string>
                 <string name="start1_service" >Start \"One\" no redeliver
                 </string>
+                <string name="presentation_info_text" >Info
+                </string>
                 <string name="notifying_service_controller" >This service will update a status bar notification
                   every 5 seconds for a minute
-                </string>
-                <string name="presentation_info_text" >Info
                 </string>
                 <string name="maximum_password_fails" >Max password failures for local wipe
                 </string>
@@ -9820,9 +9817,9 @@ Text
                 </string>
                 <string name="fragment_arguments_embedded" >From Attributes
                 </string>
-                <string name="status_bar_notifications_default_vibrate" >Vibrate
-                </string>
                 <string name="title_my_preference" >My preference
+                </string>
+                <string name="status_bar_notifications_default_vibrate" >Vibrate
                 </string>
                 <string name="baseline_6_multi_line" >This is a\nmulti-line field.
                 </string>
@@ -9833,9 +9830,9 @@ Text
                 <string name="fragment_retain_instance_msg" >Current progress of retained fragment;
     restarts if fragment is re-created.
                 </string>
-                <string name="table_layout_9_save_as_shortcut" >Ctrl-Shift-S
-                </string>
                 <string name="autocomplete_3_button_8" >View
+                </string>
+                <string name="table_layout_9_save_as_shortcut" >Ctrl-Shift-S
                 </string>
                 <string name="label_search_query" >"Query String: "
                 </string>
@@ -9847,13 +9844,13 @@ Text
                 </string>
                 <string name="focus_1_placeholder" >placeholder
                 </string>
-                <string name="value_ringer_audible" >Ringer audible
-                </string>
                 <string name="table_layout_3_save_shortcut" >(Save Document)
                 </string>
-                <string name="short_notification" >Short notification.
+                <string name="value_ringer_audible" >Ringer audible
                 </string>
                 <string name="lock_screen" >Lock screen now
+                </string>
+                <string name="short_notification" >Short notification.
                 </string>
                 <string name="btn_remove_tab" >Remove last tab
                 </string>
@@ -9861,9 +9858,9 @@ Text
                 </string>
                 <string name="title_list_preference" >List preference
                 </string>
-                <string name="status_bar_notifications_ok_message" >I am ok
-                </string>
                 <string name="autocomplete_3_button_3" >To
+                </string>
+                <string name="status_bar_notifications_ok_message" >I am ok
                 </string>
                 <string name="autocomplete_3_button_2" >Down
                 </string>
@@ -9877,9 +9874,9 @@ Text
                 </string>
                 <string name="status_bar_notifications_clear" >Clear notification
                 </string>
-                <string name="table_layout_6_import" >Import\u2026
-                </string>
                 <string name="focus_3_bottom" >bottom
+                </string>
+                <string name="table_layout_6_import" >Import\u2026
                 </string>
                 <string name="list_8_clear_photos" >Clear photos
                 </string>
@@ -9891,9 +9888,9 @@ Text
         \n\n2. Enable Explore-by-Touch (Settings -> Accessibility -> Explore by Touch).
         \n\n3. Touch explore the list.
                 </string>
-                <string name="shortcut_name" >Sample
-                </string>
                 <string name="toggle_use_logo" >DISPLAY_USE_LOGO
+                </string>
+                <string name="shortcut_name" >Sample
                 </string>
                 <string name="redirect_getter" >Enter the text that will be used by the main activity.  Press back to cancel.
                 </string>
@@ -9905,17 +9902,17 @@ Text
                 </string>
                 <string name="summary_parent_preference" >This is visually a parent
                 </string>
+                <string name="new_fragment" >Push
+                </string>
                 <string name="sms_warning" >        WARNING: this demo can send actual text messages (one at a time), so be sure to
         test with the Android emulator or have a text messaging plan with your carrier.
                 </string>
-                <string name="new_fragment" >Push
-                </string>
-                <string name="create" >Create
+                <string name="encryption_status_activating" >activating
                 </string>
                 <string name="fragment_arguments_fragment_msg" >Demonstrates two embedded fragments
         that are instantiated with arguments.
                 </string>
-                <string name="encryption_status_activating" >activating
+                <string name="create" >Create
                 </string>
                 <string name="password_minimum_letters" >Minimum letters
                 </string>
@@ -9923,35 +9920,35 @@ Text
                 </string>
                 <string name="expiration_status_future" >Password will expire %1$s from now
                 </string>
-                <string name="table_layout_8_save_as" >Save As\u2026
+                <string name="activity_animation" >App/Activity/Animation
                 </string>
                 <string name="counter_value_is" >The counter value is
                 </string>
-                <string name="activity_animation" >App/Activity/Animation
-                </string>
-                <string name="table_layout_9_toggle_shrink" >Toggle Shrink
+                <string name="table_layout_8_save_as" >Save As\u2026
                 </string>
                 <string name="linear_layout_8_right" >Right
                 </string>
-                <string name="value_ringer_vibrate" >Ringer vibrate
+                <string name="table_layout_9_toggle_shrink" >Toggle Shrink
                 </string>
-                <string name="table_layout_1_quit_shortcut" >Ctrl-Shift-Q
+                <string name="value_ringer_vibrate" >Ringer vibrate
                 </string>
                 <string name="copy_text" >Copy Text
                 </string>
-                <string name="image_view_large_at_most" >Large image scaled to at most 50x50
+                <string name="table_layout_1_quit_shortcut" >Ctrl-Shift-Q
+                </string>
+                <string name="layout_animation_address" >Address:
                 </string>
                 <string name="popup_menu_share" >Share
                 </string>
-                <string name="layout_animation_address" >Address:
+                <string name="image_view_large_at_most" >Large image scaled to at most 50x50
                 </string>
                 <string name="alert_dialog_multi_choice" >Repeat alarm
                 </string>
                 <string name="linear_layout_2_bottom" >This is the bottom view.
                 </string>
-                <string name="marquee_default" >This use the default marquee animation limit of 3
-                </string>
                 <string name="activity_save_restore" >App/Activity/Save &amp; Restore State
+                </string>
+                <string name="marquee_default" >This use the default marquee animation limit of 3
                 </string>
             </file>
             <file
@@ -10066,6 +10063,9 @@ true
                     parent="android:Theme" >
                 </style>
 
+                <color name="custom_theme_color" >#b0b0ff
+                </color>
+
                 <style name="ImageView120dpi" >
                     <item name="android:src">
 @drawable/stylogo120dpi
@@ -10077,9 +10077,6 @@ wrap_content
 wrap_content
                     </item>
                 </style>
-
-                <color name="custom_theme_color" >#b0b0ff
-                </color>
 
                 <style
                     name="Theme.CustomDialog"
