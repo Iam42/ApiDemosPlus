@@ -27,14 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de4ebf7f-7674-4467-98da-af3b7b1c77ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_18_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarDisplayOptions.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarDisplayOptions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiDemosPlus.iml" afterPath="$PROJECT_DIR$/ApiDemosPlus.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/example/android/apis/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/example/android/apis/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options_custom.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options_custom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ApiDemosPlus.iws" />
@@ -99,10 +93,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ActionBarDisplayOptions.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ActionBarDisplayOptions.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarDisplayOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="49" selection-start="5403" selection-end="5403" vertical-scroll-proportion="1.777439" vertical-offset="1202" max-vertical-offset="2595">
+            <state line="94" column="40" selection-start="3971" selection-end="3971" vertical-scroll-proportion="0.0" vertical-offset="1667" max-vertical-offset="2595">
               <folding>
                 <element signature="e#0#6908#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -111,26 +105,140 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action_bar_display_options_custom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options_custom.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="ActionBarMechanics.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="63" selection-start="802" selection-end="802" vertical-scroll-proportion="-7.851852" vertical-offset="28" max-vertical-offset="345">
+            <state line="32" column="13" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.2639296" vertical-offset="180" max-vertical-offset="1035">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionBarUsage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarUsage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="38" selection-start="1677" selection-end="1696" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action_bar_display_options.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="40" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="960">
-              <folding />
+            <state line="950" column="19" selection-start="42894" selection-end="42894" vertical-scroll-proportion="-7.8846154" vertical-offset="14045" max-vertical-offset="45315">
+              <folding>
+                <element signature="e#2550#2580#0" expanded="true" />
+                <element signature="e#3552#3582#0" expanded="true" />
+                <element signature="e#3894#3919#0" expanded="true" />
+                <element signature="e#4302#4334#0" expanded="true" />
+                <element signature="e#4706#4733#0" expanded="true" />
+                <element signature="e#5186#5215#0" expanded="true" />
+                <element signature="e#5530#5558#0" expanded="true" />
+                <element signature="e#5930#5960#0" expanded="true" />
+                <element signature="e#6338#6373#0" expanded="true" />
+                <element signature="e#6721#6749#0" expanded="true" />
+                <element signature="e#7063#7094#0" expanded="true" />
+                <element signature="e#7479#7508#0" expanded="true" />
+                <element signature="e#7894#7921#0" expanded="true" />
+                <element signature="e#8290#8324#0" expanded="true" />
+                <element signature="e#8743#8769#0" expanded="true" />
+                <element signature="e#9064#9097#0" expanded="true" />
+                <element signature="e#9520#9549#0" expanded="true" />
+                <element signature="e#9918#9945#0" expanded="true" />
+                <element signature="e#10510#10541#0" expanded="true" />
+                <element signature="e#10976#11002#0" expanded="true" />
+                <element signature="e#11317#11354#0" expanded="true" />
+                <element signature="e#11834#11865#0" expanded="true" />
+                <element signature="e#12182#12219#0" expanded="true" />
+                <element signature="e#12537#12568#0" expanded="true" />
+                <element signature="e#12901#12950#0" expanded="true" />
+                <element signature="e#13268#13300#0" expanded="true" />
+                <element signature="e#13618#13650#0" expanded="true" />
+                <element signature="e#13973#14011#0" expanded="true" />
+                <element signature="e#14363#14394#0" expanded="true" />
+                <element signature="e#14766#14794#0" expanded="true" />
+                <element signature="e#15173#15209#0" expanded="true" />
+                <element signature="e#15583#15611#0" expanded="true" />
+                <element signature="e#16046#16077#0" expanded="true" />
+                <element signature="e#16446#16471#0" expanded="true" />
+                <element signature="e#16850#16887#0" expanded="true" />
+                <element signature="e#17256#17281#0" expanded="true" />
+                <element signature="e#17783#17812#0" expanded="true" />
+                <element signature="e#18179#18202#0" expanded="true" />
+                <element signature="e#18576#18607#0" expanded="true" />
+                <element signature="e#18987#19021#0" expanded="true" />
+                <element signature="e#19397#19430#0" expanded="true" />
+                <element signature="e#19798#19822#0" expanded="true" />
+                <element signature="e#20189#20212#0" expanded="true" />
+                <element signature="e#20612#20635#0" expanded="true" />
+                <element signature="e#21002#21025#0" expanded="true" />
+                <element signature="e#21395#21420#0" expanded="true" />
+                <element signature="e#22004#22029#0" expanded="true" />
+                <element signature="e#22408#22434#0" expanded="true" />
+                <element signature="e#22751#22791#0" expanded="true" />
+                <element signature="e#23238#23281#0" expanded="true" />
+                <element signature="e#23656#23696#0" expanded="true" />
+                <element signature="e#24130#24174#0" expanded="true" />
+                <element signature="e#25183#25227#0" expanded="true" />
+                <element signature="e#25593#25634#0" expanded="true" />
+                <element signature="e#25960#26009#0" expanded="true" />
+                <element signature="e#26402#26455#0" expanded="true" />
+                <element signature="e#26887#26935#0" expanded="true" />
+                <element signature="e#27306#27352#0" expanded="true" />
+                <element signature="e#28239#28274#0" expanded="true" />
+                <element signature="e#28656#28688#0" expanded="true" />
+                <element signature="e#29308#29339#0" expanded="true" />
+                <element signature="e#29658#29695#0" expanded="true" />
+                <element signature="e#30042#30078#0" expanded="true" />
+                <element signature="e#30467#30509#0" expanded="true" />
+                <element signature="e#31082#31117#0" expanded="true" />
+                <element signature="e#31518#31549#0" expanded="true" />
+                <element signature="e#31851#31885#0" expanded="true" />
+                <element signature="e#34771#34802#0" expanded="true" />
+                <element signature="e#35526#35549#0" expanded="true" />
+                <element signature="e#36834#36864#0" expanded="true" />
+                <element signature="e#39341#39360#0" expanded="true" />
+                <element signature="e#40017#40043#0" expanded="true" />
+                <element signature="e#40483#40512#0" expanded="true" />
+                <element signature="e#40866#40904#0" expanded="true" />
+                <element signature="e#41246#41275#0" expanded="true" />
+                <element signature="e#41312#41353#0" expanded="true" />
+                <element signature="e#41836#41863#0" expanded="true" />
+                <element signature="e#42206#42230#0" expanded="true" />
+                <element signature="e#42637#42667#0" expanded="true" />
+                <element signature="e#42979#43005#0" expanded="true" />
+                <element signature="e#43383#43419#0" expanded="true" />
+                <element signature="e#43846#43871#0" expanded="true" />
+                <element signature="e#44265#44310#0" expanded="true" />
+                <element signature="e#44708#44750#0" expanded="true" />
+                <element signature="e#45123#45145#0" expanded="true" />
+                <element signature="e#45516#45548#0" expanded="true" />
+                <element signature="e#45918#45949#0" expanded="true" />
+                <element signature="e#46319#46349#0" expanded="true" />
+                <element signature="e#47469#47499#0" expanded="true" />
+                <element signature="e#47882#47915#0" expanded="true" />
+                <element signature="e#48295#48325#0" expanded="true" />
+                <element signature="e#48649#48680#0" expanded="true" />
+                <element signature="e#49004#49034#0" expanded="true" />
+                <element signature="e#49359#49390#0" expanded="true" />
+                <element signature="e#49717#49750#0" expanded="true" />
+                <element signature="e#50052#50076#0" expanded="true" />
+                <element signature="e#50397#50424#0" expanded="true" />
+                <element signature="e#50971#50999#0" expanded="true" />
+                <element signature="e#51357#51392#0" expanded="true" />
+                <element signature="e#51762#51792#0" expanded="true" />
+                <element signature="e#52621#52666#0" expanded="true" />
+                <element signature="e#53065#53110#0" expanded="true" />
+                <element signature="e#53568#53611#0" expanded="true" />
+                <element signature="e#54040#54069#0" expanded="true" />
+                <element signature="e#54444#54472#0" expanded="true" />
+                <element signature="e#54769#54800#0" expanded="true" />
+                <element signature="e#55101#55135#0" expanded="true" />
+                <element signature="e#55429#55459#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1010,11 +1118,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/PrintBitmap.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/ApiDemos.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options_custom.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarDisplayOptions.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -1125,7 +1234,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1151,11 +1264,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="apis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1199,7 +1316,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DoubanGroup-Android" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0149E1311902100D" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="016B22DD1501602C" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
@@ -1382,7 +1499,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="708" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1397,7 +1514,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3980424" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3980424" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1426,16 +1543,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="40" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarDisplayOptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="55" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="2325">
@@ -1463,7 +1570,116 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="961" column="57" selection-start="43350" selection-end="43350" vertical-scroll-proportion="0.0" vertical-offset="14254" max-vertical-offset="45300">
-          <folding />
+          <folding>
+            <element signature="e#2550#2580#0" expanded="true" />
+            <element signature="e#3552#3582#0" expanded="true" />
+            <element signature="e#3894#3919#0" expanded="true" />
+            <element signature="e#4302#4334#0" expanded="true" />
+            <element signature="e#4706#4733#0" expanded="true" />
+            <element signature="e#5186#5215#0" expanded="true" />
+            <element signature="e#5530#5558#0" expanded="true" />
+            <element signature="e#5930#5960#0" expanded="true" />
+            <element signature="e#6338#6373#0" expanded="true" />
+            <element signature="e#6721#6749#0" expanded="true" />
+            <element signature="e#7063#7094#0" expanded="true" />
+            <element signature="e#7479#7508#0" expanded="true" />
+            <element signature="e#7894#7921#0" expanded="true" />
+            <element signature="e#8290#8324#0" expanded="true" />
+            <element signature="e#8743#8769#0" expanded="true" />
+            <element signature="e#9064#9097#0" expanded="true" />
+            <element signature="e#9520#9549#0" expanded="true" />
+            <element signature="e#9918#9945#0" expanded="true" />
+            <element signature="e#10510#10541#0" expanded="true" />
+            <element signature="e#10976#11002#0" expanded="true" />
+            <element signature="e#11317#11354#0" expanded="true" />
+            <element signature="e#11834#11865#0" expanded="true" />
+            <element signature="e#12182#12219#0" expanded="true" />
+            <element signature="e#12537#12568#0" expanded="true" />
+            <element signature="e#12901#12950#0" expanded="true" />
+            <element signature="e#13268#13300#0" expanded="true" />
+            <element signature="e#13618#13650#0" expanded="true" />
+            <element signature="e#13973#14011#0" expanded="true" />
+            <element signature="e#14363#14394#0" expanded="true" />
+            <element signature="e#14766#14794#0" expanded="true" />
+            <element signature="e#15173#15209#0" expanded="true" />
+            <element signature="e#15583#15611#0" expanded="true" />
+            <element signature="e#16046#16077#0" expanded="true" />
+            <element signature="e#16446#16471#0" expanded="true" />
+            <element signature="e#16850#16887#0" expanded="true" />
+            <element signature="e#17256#17281#0" expanded="true" />
+            <element signature="e#17783#17812#0" expanded="true" />
+            <element signature="e#18179#18202#0" expanded="true" />
+            <element signature="e#18576#18607#0" expanded="true" />
+            <element signature="e#18987#19021#0" expanded="true" />
+            <element signature="e#19397#19430#0" expanded="true" />
+            <element signature="e#19798#19822#0" expanded="true" />
+            <element signature="e#20189#20212#0" expanded="true" />
+            <element signature="e#20612#20635#0" expanded="true" />
+            <element signature="e#21002#21025#0" expanded="true" />
+            <element signature="e#21395#21420#0" expanded="true" />
+            <element signature="e#22004#22029#0" expanded="true" />
+            <element signature="e#22408#22434#0" expanded="true" />
+            <element signature="e#22751#22791#0" expanded="true" />
+            <element signature="e#23238#23281#0" expanded="true" />
+            <element signature="e#23656#23696#0" expanded="true" />
+            <element signature="e#24130#24174#0" expanded="true" />
+            <element signature="e#25183#25227#0" expanded="true" />
+            <element signature="e#25593#25634#0" expanded="true" />
+            <element signature="e#25960#26009#0" expanded="true" />
+            <element signature="e#26402#26455#0" expanded="true" />
+            <element signature="e#26887#26935#0" expanded="true" />
+            <element signature="e#27306#27352#0" expanded="true" />
+            <element signature="e#28239#28274#0" expanded="true" />
+            <element signature="e#28656#28688#0" expanded="true" />
+            <element signature="e#29308#29339#0" expanded="true" />
+            <element signature="e#29658#29695#0" expanded="true" />
+            <element signature="e#30042#30078#0" expanded="true" />
+            <element signature="e#30467#30509#0" expanded="true" />
+            <element signature="e#31082#31117#0" expanded="true" />
+            <element signature="e#31518#31549#0" expanded="true" />
+            <element signature="e#31851#31885#0" expanded="true" />
+            <element signature="e#34771#34802#0" expanded="true" />
+            <element signature="e#35526#35549#0" expanded="true" />
+            <element signature="e#36834#36864#0" expanded="true" />
+            <element signature="e#39341#39360#0" expanded="true" />
+            <element signature="e#40017#40043#0" expanded="true" />
+            <element signature="e#40483#40512#0" expanded="true" />
+            <element signature="e#40866#40904#0" expanded="true" />
+            <element signature="e#41246#41275#0" expanded="true" />
+            <element signature="e#41312#41353#0" expanded="true" />
+            <element signature="e#41836#41863#0" expanded="true" />
+            <element signature="e#42206#42230#0" expanded="true" />
+            <element signature="e#42637#42667#0" expanded="true" />
+            <element signature="e#42979#43005#0" expanded="true" />
+            <element signature="e#43383#43419#0" expanded="true" />
+            <element signature="e#43846#43871#0" expanded="true" />
+            <element signature="e#44265#44310#0" expanded="true" />
+            <element signature="e#44708#44750#0" expanded="true" />
+            <element signature="e#45123#45145#0" expanded="true" />
+            <element signature="e#45516#45548#0" expanded="true" />
+            <element signature="e#45918#45949#0" expanded="true" />
+            <element signature="e#46319#46349#0" expanded="true" />
+            <element signature="e#47469#47499#0" expanded="true" />
+            <element signature="e#47882#47915#0" expanded="true" />
+            <element signature="e#48295#48325#0" expanded="true" />
+            <element signature="e#48649#48680#0" expanded="true" />
+            <element signature="e#49004#49034#0" expanded="true" />
+            <element signature="e#49359#49390#0" expanded="true" />
+            <element signature="e#49717#49750#0" expanded="true" />
+            <element signature="e#50052#50076#0" expanded="true" />
+            <element signature="e#50397#50424#0" expanded="true" />
+            <element signature="e#50971#50999#0" expanded="true" />
+            <element signature="e#51357#51392#0" expanded="true" />
+            <element signature="e#51762#51792#0" expanded="true" />
+            <element signature="e#52621#52666#0" expanded="true" />
+            <element signature="e#53065#53110#0" expanded="true" />
+            <element signature="e#53568#53611#0" expanded="true" />
+            <element signature="e#54040#54069#0" expanded="true" />
+            <element signature="e#54444#54472#0" expanded="true" />
+            <element signature="e#54769#54800#0" expanded="true" />
+            <element signature="e#55101#55135#0" expanded="true" />
+            <element signature="e#55429#55459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1508,7 +1724,116 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="944" column="44" selection-start="42596" selection-end="42596" vertical-scroll-proportion="0.0" vertical-offset="14005" max-vertical-offset="45315">
-          <folding />
+          <folding>
+            <element signature="e#2550#2580#0" expanded="true" />
+            <element signature="e#3552#3582#0" expanded="true" />
+            <element signature="e#3894#3919#0" expanded="true" />
+            <element signature="e#4302#4334#0" expanded="true" />
+            <element signature="e#4706#4733#0" expanded="true" />
+            <element signature="e#5186#5215#0" expanded="true" />
+            <element signature="e#5530#5558#0" expanded="true" />
+            <element signature="e#5930#5960#0" expanded="true" />
+            <element signature="e#6338#6373#0" expanded="true" />
+            <element signature="e#6721#6749#0" expanded="true" />
+            <element signature="e#7063#7094#0" expanded="true" />
+            <element signature="e#7479#7508#0" expanded="true" />
+            <element signature="e#7894#7921#0" expanded="true" />
+            <element signature="e#8290#8324#0" expanded="true" />
+            <element signature="e#8743#8769#0" expanded="true" />
+            <element signature="e#9064#9097#0" expanded="true" />
+            <element signature="e#9520#9549#0" expanded="true" />
+            <element signature="e#9918#9945#0" expanded="true" />
+            <element signature="e#10510#10541#0" expanded="true" />
+            <element signature="e#10976#11002#0" expanded="true" />
+            <element signature="e#11317#11354#0" expanded="true" />
+            <element signature="e#11834#11865#0" expanded="true" />
+            <element signature="e#12182#12219#0" expanded="true" />
+            <element signature="e#12537#12568#0" expanded="true" />
+            <element signature="e#12901#12950#0" expanded="true" />
+            <element signature="e#13268#13300#0" expanded="true" />
+            <element signature="e#13618#13650#0" expanded="true" />
+            <element signature="e#13973#14011#0" expanded="true" />
+            <element signature="e#14363#14394#0" expanded="true" />
+            <element signature="e#14766#14794#0" expanded="true" />
+            <element signature="e#15173#15209#0" expanded="true" />
+            <element signature="e#15583#15611#0" expanded="true" />
+            <element signature="e#16046#16077#0" expanded="true" />
+            <element signature="e#16446#16471#0" expanded="true" />
+            <element signature="e#16850#16887#0" expanded="true" />
+            <element signature="e#17256#17281#0" expanded="true" />
+            <element signature="e#17783#17812#0" expanded="true" />
+            <element signature="e#18179#18202#0" expanded="true" />
+            <element signature="e#18576#18607#0" expanded="true" />
+            <element signature="e#18987#19021#0" expanded="true" />
+            <element signature="e#19397#19430#0" expanded="true" />
+            <element signature="e#19798#19822#0" expanded="true" />
+            <element signature="e#20189#20212#0" expanded="true" />
+            <element signature="e#20612#20635#0" expanded="true" />
+            <element signature="e#21002#21025#0" expanded="true" />
+            <element signature="e#21395#21420#0" expanded="true" />
+            <element signature="e#22004#22029#0" expanded="true" />
+            <element signature="e#22408#22434#0" expanded="true" />
+            <element signature="e#22751#22791#0" expanded="true" />
+            <element signature="e#23238#23281#0" expanded="true" />
+            <element signature="e#23656#23696#0" expanded="true" />
+            <element signature="e#24130#24174#0" expanded="true" />
+            <element signature="e#25183#25227#0" expanded="true" />
+            <element signature="e#25593#25634#0" expanded="true" />
+            <element signature="e#25960#26009#0" expanded="true" />
+            <element signature="e#26402#26455#0" expanded="true" />
+            <element signature="e#26887#26935#0" expanded="true" />
+            <element signature="e#27306#27352#0" expanded="true" />
+            <element signature="e#28239#28274#0" expanded="true" />
+            <element signature="e#28656#28688#0" expanded="true" />
+            <element signature="e#29308#29339#0" expanded="true" />
+            <element signature="e#29658#29695#0" expanded="true" />
+            <element signature="e#30042#30078#0" expanded="true" />
+            <element signature="e#30467#30509#0" expanded="true" />
+            <element signature="e#31082#31117#0" expanded="true" />
+            <element signature="e#31518#31549#0" expanded="true" />
+            <element signature="e#31851#31885#0" expanded="true" />
+            <element signature="e#34771#34802#0" expanded="true" />
+            <element signature="e#35526#35549#0" expanded="true" />
+            <element signature="e#36834#36864#0" expanded="true" />
+            <element signature="e#39341#39360#0" expanded="true" />
+            <element signature="e#40017#40043#0" expanded="true" />
+            <element signature="e#40483#40512#0" expanded="true" />
+            <element signature="e#40866#40904#0" expanded="true" />
+            <element signature="e#41246#41275#0" expanded="true" />
+            <element signature="e#41312#41353#0" expanded="true" />
+            <element signature="e#41836#41863#0" expanded="true" />
+            <element signature="e#42206#42230#0" expanded="true" />
+            <element signature="e#42637#42667#0" expanded="true" />
+            <element signature="e#42979#43005#0" expanded="true" />
+            <element signature="e#43383#43419#0" expanded="true" />
+            <element signature="e#43846#43871#0" expanded="true" />
+            <element signature="e#44265#44310#0" expanded="true" />
+            <element signature="e#44708#44750#0" expanded="true" />
+            <element signature="e#45123#45145#0" expanded="true" />
+            <element signature="e#45516#45548#0" expanded="true" />
+            <element signature="e#45918#45949#0" expanded="true" />
+            <element signature="e#46319#46349#0" expanded="true" />
+            <element signature="e#47469#47499#0" expanded="true" />
+            <element signature="e#47882#47915#0" expanded="true" />
+            <element signature="e#48295#48325#0" expanded="true" />
+            <element signature="e#48649#48680#0" expanded="true" />
+            <element signature="e#49004#49034#0" expanded="true" />
+            <element signature="e#49359#49390#0" expanded="true" />
+            <element signature="e#49717#49750#0" expanded="true" />
+            <element signature="e#50052#50076#0" expanded="true" />
+            <element signature="e#50397#50424#0" expanded="true" />
+            <element signature="e#50971#50999#0" expanded="true" />
+            <element signature="e#51357#51392#0" expanded="true" />
+            <element signature="e#51762#51792#0" expanded="true" />
+            <element signature="e#52621#52666#0" expanded="true" />
+            <element signature="e#53065#53110#0" expanded="true" />
+            <element signature="e#53568#53611#0" expanded="true" />
+            <element signature="e#54040#54069#0" expanded="true" />
+            <element signature="e#54444#54472#0" expanded="true" />
+            <element signature="e#54769#54800#0" expanded="true" />
+            <element signature="e#55101#55135#0" expanded="true" />
+            <element signature="e#55429#55459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1565,21 +1890,6 @@
         <state line="424" column="16" selection-start="17091" selection-end="17091" vertical-scroll-proportion="0.33159268" vertical-offset="5633" max-vertical-offset="13560" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="40" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-0.13577023" vertical-offset="202" max-vertical-offset="900" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarSettingsActionProviderActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="13" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.020887729" vertical-offset="172" max-vertical-offset="1335" />
@@ -1592,7 +1902,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2106" column="40" selection-start="92588" selection-end="92588" vertical-scroll-proportion="0.3783784" vertical-offset="29920" max-vertical-offset="80130" />
+        <state line="2106" column="40" selection-start="92588" selection-end="92588" vertical-scroll-proportion="0.3783784" vertical-offset="29920" max-vertical-offset="80130">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/app/ListActivity.java">
@@ -1649,11 +1961,6 @@
         <state line="23" column="13" selection-start="791" selection-end="791" vertical-scroll-proportion="-0.6104651" vertical-offset="345" max-vertical-offset="6525" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1327" selection-end="1327" vertical-scroll-proportion="-1.3255814" vertical-offset="621" max-vertical-offset="1110" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/bools.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="16" selection-start="874" selection-end="874" vertical-scroll-proportion="0.33139536" vertical-offset="186" max-vertical-offset="870">
@@ -1671,13 +1978,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="56" selection-start="827" selection-end="827" vertical-scroll-proportion="0.4360465" vertical-offset="120" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="963" column="16" selection-start="43438" selection-end="43438" vertical-scroll-proportion="0.0" vertical-offset="14344" max-vertical-offset="45315">
           <folding />
         </state>
       </provider>
@@ -1781,9 +2081,158 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarDisplayOptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="49" selection-start="5403" selection-end="5403" vertical-scroll-proportion="1.777439" vertical-offset="1202" max-vertical-offset="2595">
+        <state line="94" column="40" selection-start="3971" selection-end="3971" vertical-scroll-proportion="0.0" vertical-offset="1667" max-vertical-offset="2595">
           <folding>
             <element signature="e#0#6908#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/actions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.4398827" vertical-offset="150" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="40" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.22611465" vertical-offset="544" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="950" column="19" selection-start="42894" selection-end="42894" vertical-scroll-proportion="-7.8846154" vertical-offset="14045" max-vertical-offset="45315">
+          <folding>
+            <element signature="e#2550#2580#0" expanded="true" />
+            <element signature="e#3552#3582#0" expanded="true" />
+            <element signature="e#3894#3919#0" expanded="true" />
+            <element signature="e#4302#4334#0" expanded="true" />
+            <element signature="e#4706#4733#0" expanded="true" />
+            <element signature="e#5186#5215#0" expanded="true" />
+            <element signature="e#5530#5558#0" expanded="true" />
+            <element signature="e#5930#5960#0" expanded="true" />
+            <element signature="e#6338#6373#0" expanded="true" />
+            <element signature="e#6721#6749#0" expanded="true" />
+            <element signature="e#7063#7094#0" expanded="true" />
+            <element signature="e#7479#7508#0" expanded="true" />
+            <element signature="e#7894#7921#0" expanded="true" />
+            <element signature="e#8290#8324#0" expanded="true" />
+            <element signature="e#8743#8769#0" expanded="true" />
+            <element signature="e#9064#9097#0" expanded="true" />
+            <element signature="e#9520#9549#0" expanded="true" />
+            <element signature="e#9918#9945#0" expanded="true" />
+            <element signature="e#10510#10541#0" expanded="true" />
+            <element signature="e#10976#11002#0" expanded="true" />
+            <element signature="e#11317#11354#0" expanded="true" />
+            <element signature="e#11834#11865#0" expanded="true" />
+            <element signature="e#12182#12219#0" expanded="true" />
+            <element signature="e#12537#12568#0" expanded="true" />
+            <element signature="e#12901#12950#0" expanded="true" />
+            <element signature="e#13268#13300#0" expanded="true" />
+            <element signature="e#13618#13650#0" expanded="true" />
+            <element signature="e#13973#14011#0" expanded="true" />
+            <element signature="e#14363#14394#0" expanded="true" />
+            <element signature="e#14766#14794#0" expanded="true" />
+            <element signature="e#15173#15209#0" expanded="true" />
+            <element signature="e#15583#15611#0" expanded="true" />
+            <element signature="e#16046#16077#0" expanded="true" />
+            <element signature="e#16446#16471#0" expanded="true" />
+            <element signature="e#16850#16887#0" expanded="true" />
+            <element signature="e#17256#17281#0" expanded="true" />
+            <element signature="e#17783#17812#0" expanded="true" />
+            <element signature="e#18179#18202#0" expanded="true" />
+            <element signature="e#18576#18607#0" expanded="true" />
+            <element signature="e#18987#19021#0" expanded="true" />
+            <element signature="e#19397#19430#0" expanded="true" />
+            <element signature="e#19798#19822#0" expanded="true" />
+            <element signature="e#20189#20212#0" expanded="true" />
+            <element signature="e#20612#20635#0" expanded="true" />
+            <element signature="e#21002#21025#0" expanded="true" />
+            <element signature="e#21395#21420#0" expanded="true" />
+            <element signature="e#22004#22029#0" expanded="true" />
+            <element signature="e#22408#22434#0" expanded="true" />
+            <element signature="e#22751#22791#0" expanded="true" />
+            <element signature="e#23238#23281#0" expanded="true" />
+            <element signature="e#23656#23696#0" expanded="true" />
+            <element signature="e#24130#24174#0" expanded="true" />
+            <element signature="e#25183#25227#0" expanded="true" />
+            <element signature="e#25593#25634#0" expanded="true" />
+            <element signature="e#25960#26009#0" expanded="true" />
+            <element signature="e#26402#26455#0" expanded="true" />
+            <element signature="e#26887#26935#0" expanded="true" />
+            <element signature="e#27306#27352#0" expanded="true" />
+            <element signature="e#28239#28274#0" expanded="true" />
+            <element signature="e#28656#28688#0" expanded="true" />
+            <element signature="e#29308#29339#0" expanded="true" />
+            <element signature="e#29658#29695#0" expanded="true" />
+            <element signature="e#30042#30078#0" expanded="true" />
+            <element signature="e#30467#30509#0" expanded="true" />
+            <element signature="e#31082#31117#0" expanded="true" />
+            <element signature="e#31518#31549#0" expanded="true" />
+            <element signature="e#31851#31885#0" expanded="true" />
+            <element signature="e#34771#34802#0" expanded="true" />
+            <element signature="e#35526#35549#0" expanded="true" />
+            <element signature="e#36834#36864#0" expanded="true" />
+            <element signature="e#39341#39360#0" expanded="true" />
+            <element signature="e#40017#40043#0" expanded="true" />
+            <element signature="e#40483#40512#0" expanded="true" />
+            <element signature="e#40866#40904#0" expanded="true" />
+            <element signature="e#41246#41275#0" expanded="true" />
+            <element signature="e#41312#41353#0" expanded="true" />
+            <element signature="e#41836#41863#0" expanded="true" />
+            <element signature="e#42206#42230#0" expanded="true" />
+            <element signature="e#42637#42667#0" expanded="true" />
+            <element signature="e#42979#43005#0" expanded="true" />
+            <element signature="e#43383#43419#0" expanded="true" />
+            <element signature="e#43846#43871#0" expanded="true" />
+            <element signature="e#44265#44310#0" expanded="true" />
+            <element signature="e#44708#44750#0" expanded="true" />
+            <element signature="e#45123#45145#0" expanded="true" />
+            <element signature="e#45516#45548#0" expanded="true" />
+            <element signature="e#45918#45949#0" expanded="true" />
+            <element signature="e#46319#46349#0" expanded="true" />
+            <element signature="e#47469#47499#0" expanded="true" />
+            <element signature="e#47882#47915#0" expanded="true" />
+            <element signature="e#48295#48325#0" expanded="true" />
+            <element signature="e#48649#48680#0" expanded="true" />
+            <element signature="e#49004#49034#0" expanded="true" />
+            <element signature="e#49359#49390#0" expanded="true" />
+            <element signature="e#49717#49750#0" expanded="true" />
+            <element signature="e#50052#50076#0" expanded="true" />
+            <element signature="e#50397#50424#0" expanded="true" />
+            <element signature="e#50971#50999#0" expanded="true" />
+            <element signature="e#51357#51392#0" expanded="true" />
+            <element signature="e#51762#51792#0" expanded="true" />
+            <element signature="e#52621#52666#0" expanded="true" />
+            <element signature="e#53065#53110#0" expanded="true" />
+            <element signature="e#53568#53611#0" expanded="true" />
+            <element signature="e#54040#54069#0" expanded="true" />
+            <element signature="e#54444#54472#0" expanded="true" />
+            <element signature="e#54769#54800#0" expanded="true" />
+            <element signature="e#55101#55135#0" expanded="true" />
+            <element signature="e#55429#55459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="38" selection-start="1677" selection-end="1696" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="13" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.2639296" vertical-offset="180" max-vertical-offset="1035">
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>

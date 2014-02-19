@@ -15,8 +15,10 @@
  */
 package com.example.android.apis.app;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
@@ -27,7 +29,7 @@ import android.widget.Toast;
  * standard options menu. This demo is for informative purposes only; see ActionBarUsage for
  * an example of using the Action Bar in a more idiomatic manner.
  */
-public class ActionBarMechanics extends Activity {
+public class ActionBarMechanics extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,7 +57,9 @@ public class ActionBarMechanics extends Activity {
         // Items that show as actions should favor the "if room" setting, which will
         // prevent too many buttons from crowding the bar. Extra items will show in the
         // overflow area.
-        actionItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+        //only uesd in sdk >= 11 in the min version , u should use xml
+
+        //actionItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
         // Items that show as actions are strongly encouraged to use an icon.
         // These icons are shown without a text description, and therefore should

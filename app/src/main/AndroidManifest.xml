@@ -942,8 +942,8 @@
 
         <!-- Action Bar Samples -->
         <activity android:name=".app.ActionBarMechanics"
-                android:label="@string/action_bar_mechanics"
-                android:enabled="@bool/atLeastHoneycomb">
+                android:theme="@style/Theme.AppCompat"
+                android:label="@string/action_bar_mechanics">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
