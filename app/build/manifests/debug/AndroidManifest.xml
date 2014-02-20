@@ -823,7 +823,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:enabled="@bool/atLeastIceCreamSandwich" android:label="@string/action_bar_settings_action_provider" android:name="com.example.android.apis.app.ActionBarSettingsActionProviderActivity">
+        <activity android:label="@string/action_bar_settings_action_provider" android:name="com.example.android.apis.app.ActionBarSettingsActionProviderActivity" android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.SAMPLE_CODE"/>

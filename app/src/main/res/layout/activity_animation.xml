@@ -38,6 +38,11 @@
         android:text="@string/activity_animation_zoom">
     </Button>
 
+    <Button android:id="@+id/scale_up_animation"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/activity_scale_up_animation">
+    </Button>
+
     <Button android:id="@+id/modern_fade_animation"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:text="@string/activity_modern_animation_fade">
@@ -49,9 +54,9 @@
         android:text="@string/activity_modern_animation_zoom">
     </Button>
 
-    <Button android:id="@+id/scale_up_animation"
+    <Button android:id="@+id/modern_scale_up_animation"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="@string/activity_scale_up_animation">
+        android:text="@string/activity_modern_scale_up_animation">
     </Button>
 
     <Button android:id="@+id/zoom_thumbnail_animation"

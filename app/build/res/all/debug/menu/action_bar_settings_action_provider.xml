@@ -13,17 +13,18 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:ApiDemos="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/menu_item_action_provider_action_bar"
         android:showAsAction="ifRoom"
         android:title="@string/action_bar_settings"
-        android:actionProviderClass="com.example.android.apis.app.ActionBarSettingsActionProviderActivity$SettingsActionProvider"/>
+        ApiDemos:actionProviderClass="com.example.android.apis.app.ActionBarSettingsActionProviderActivity$SettingsActionProvider"/>
 
     <item android:id="@+id/menu_item_action_provider_overflow"
         android:showAsAction="never"
         android:title="@string/action_bar_settings"
-        android:actionProviderClass="com.example.android.apis.app.ActionBarSettingsActionProviderActivity$SettingsActionProvider"/>
+        ApiDemos:actionProviderClass="com.example.android.apis.app.ActionBarSettingsActionProviderActivity$SettingsActionProvider"/>
 
 </menu>
 <!-- From: file:/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/res/menu/action_bar_settings_action_provider.xml -->

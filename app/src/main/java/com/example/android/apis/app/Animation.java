@@ -46,19 +46,22 @@ public class Animation extends Activity {
         button.setOnClickListener(mFadeListener);
         button = (Button)findViewById(R.id.zoom_animation);
         button.setOnClickListener(mZoomListener);
+        button = (Button)findViewById(R.id.scale_up_animation);
+        button.setOnClickListener(mScaleUpListener);
+
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {
             button = (Button)findViewById(R.id.modern_fade_animation);
             button.setOnClickListener(mModernFadeListener);
             button = (Button)findViewById(R.id.modern_zoom_animation);
             button.setOnClickListener(mModernZoomListener);
-            button = (Button)findViewById(R.id.scale_up_animation);
-            button.setOnClickListener(mScaleUpListener);
+            button = (Button)findViewById(R.id.modern_scale_up_animation);
+            button.setOnClickListener(mScaleUpModernListener);
             button = (Button)findViewById(R.id.zoom_thumbnail_animation);
             button.setOnClickListener(mZoomThumbnailListener);
         } else {
             findViewById(R.id.modern_fade_animation).setEnabled(false);
             findViewById(R.id.modern_zoom_animation).setEnabled(false);
-            findViewById(R.id.scale_up_animation).setEnabled(false);
+            findViewById(R.id.modern_scale_up_animation).setEnabled(false);
             findViewById(R.id.zoom_thumbnail_animation).setEnabled(false);
         }
     }
@@ -85,6 +88,14 @@ public class Animation extends Activity {
             // to be Z-ordered on top (even though it really isn't) to achieve
             // the effect we want.
             overridePendingTransition(R.anim.zoom_enter, R.anim.zoom_exit);
+        }
+    };
+
+    private OnClickListener mScaleUpListener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            startActivity(new Intent(Animation.this, AlertDialogSamples.class));
+            overridePendingTransition(R.anim.scale_up_enter, R.anim.scale_up_exit);
         }
     };
 
@@ -116,7 +127,7 @@ public class Animation extends Activity {
         }
     };
 
-    private OnClickListener mScaleUpListener = new OnClickListener() {
+    private OnClickListener mScaleUpModernListener = new OnClickListener() {
         public void onClick(View v) {
             // Create a scale-up animation that originates at the button
             // being pressed.

@@ -8636,6 +8636,8 @@ World!
                 </string>
                 <string name="action_bar_share_with" >Share with...
                 </string>
+                <string name="activity_modern_scale_up_animation" >Scale up modern
+                </string>
                 <string name="alert_dialog_hide" >Hide
                 </string>
                 <string name="fragment_custom_animations" >App/Fragment/Custom Animations
@@ -9471,9 +9473,9 @@ text1: Various kinds
                 </string>
                 <string name="camera_disabled" >Device cameras disabled
                 </string>
-                <string name="presentation_with_media_router_play_on" >Play on...
-                </string>
                 <string name="cycle_custom_gravity" >Cycle Custom View Gravity
+                </string>
+                <string name="presentation_with_media_router_play_on" >Play on...
                 </string>
                 <string name="wipe_all_data" >Wipe all data
                 </string>
@@ -10310,6 +10312,16 @@ true
                 path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/res/xml/taskbackconfig.xml"
                 qualifiers=""
                 type="xml" />
+            <file
+                name="scale_up_enter"
+                path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/res/anim/scale_up_enter.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="scale_up_exit"
+                path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/res/anim/scale_up_exit.xml"
+                qualifiers=""
+                type="anim" />
         </source>
         <source path="/Users/a42/Develop/android-project/ApiDemosPlus/app/build/res/rs/debug" />
     </dataSet>

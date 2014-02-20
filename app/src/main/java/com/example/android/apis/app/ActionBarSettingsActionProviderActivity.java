@@ -16,11 +16,11 @@
 
 package com.example.android.apis.app;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.provider.Settings;
-import android.view.ActionProvider;
+import android.support.v4.view.ActionProvider;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -36,7 +36,7 @@ import com.example.android.apis.R;
  * ActionProvider for launching the system settings and adds a menu item with that
  * provider.
  */
-public class ActionBarSettingsActionProviderActivity extends Activity {
+public class ActionBarSettingsActionProviderActivity extends ActionBarActivity {
 
     /**
      * {@inheritDoc}

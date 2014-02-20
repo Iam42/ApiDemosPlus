@@ -13,7 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
+<!--
+An interpolator defines the rate of change of an animation
+-->
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
        android:interpolator="@android:anim/accelerate_interpolator"
        android:fromXDelta="0" android:toXDelta="0"

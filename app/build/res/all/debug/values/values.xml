@@ -987,6 +987,7 @@
     <string name="activity_messenger_service_binding">App/Service/Messenger Service</string>
     <string name="activity_modern_animation_fade">Modern fade in</string>
     <string name="activity_modern_animation_zoom">Modern zoom in</string>
+    <string name="activity_modern_scale_up_animation">Scale up modern</string>
     <string name="activity_overscan">App/Activity/Overscan</string>
     <string name="activity_persistent">App/Activity/Persistent State</string>
     <string name="activity_pick_contact">Content/Provider/Pick Contact</string>
