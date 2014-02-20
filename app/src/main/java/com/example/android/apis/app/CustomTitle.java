@@ -60,6 +60,11 @@ public class CustomTitle extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //it can not work with actionbar!!!
+        //if add
+        //  requestWindowFeature(getWindow().FEATURE_ACTION_BAR);
+        //it will clash!!
+
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.custom_title);
         getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.custom_title_1);
