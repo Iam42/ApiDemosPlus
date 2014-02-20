@@ -71,6 +71,7 @@
 
     <string name="activity_animation">App/Activity/Animation</string>
     <string name="activity_animation_msg">Press a button to launch an activity with a custom animation.</string>
+    <string name="activity_animation_right_in">Right in</string>
     <string name="activity_animation_fade">Fade in</string>
     <string name="activity_animation_zoom">Zoom in</string>
     <string name="activity_scale_up_animation">Scale up</string>

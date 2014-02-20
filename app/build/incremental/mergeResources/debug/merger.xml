@@ -9653,6 +9653,8 @@ bold-italic
                 <string name="one_shot_scheduled" >One-shot alarm will go off in 30 seconds based on
         the real time clock.  Try changing the current time before then!
                 </string>
+                <string name="activity_animation_right_in" >Right in
+                </string>
                 <string name="hide_me" >Hide Me!
                 </string>
                 <string name="title_next_screen_toggle_preference" >Toggle preference
@@ -10320,6 +10322,16 @@ true
             <file
                 name="scale_up_exit"
                 path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/res/anim/scale_up_exit.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="right_in_enter"
+                path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/res/anim/right_in_enter.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="right_in_exit"
+                path="/Users/a42/Develop/android-project/ApiDemosPlus/app/src/main/res/anim/right_in_exit.xml"
                 qualifiers=""
                 type="anim" />
         </source>

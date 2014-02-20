@@ -27,6 +27,12 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/activity_animation_msg"/>
 
+    <Button android:id="@+id/right_in_animation"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/activity_animation_right_in">
+        <requestFocus />
+    </Button>
+
     <Button android:id="@+id/fade_animation"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:text="@string/activity_animation_fade">

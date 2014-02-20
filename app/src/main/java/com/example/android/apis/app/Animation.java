@@ -42,7 +42,9 @@ public class Animation extends Activity {
         setContentView(R.layout.activity_animation);
 
         // Watch for button clicks.
-        Button button = (Button)findViewById(R.id.fade_animation);
+        Button button = (Button) findViewById(R.id.right_in_animation);
+        button.setOnClickListener(mRightInListener);
+        button = (Button)findViewById(R.id.fade_animation);
         button.setOnClickListener(mFadeListener);
         button = (Button)findViewById(R.id.zoom_animation);
         button.setOnClickListener(mZoomListener);
@@ -65,6 +67,13 @@ public class Animation extends Activity {
             findViewById(R.id.zoom_thumbnail_animation).setEnabled(false);
         }
     }
+
+    private OnClickListener mRightInListener = new OnClickListener() {
+        public void onClick(View v) {
+            startActivity(new Intent(Animation.this, AlertDialogSamples.class));
+            overridePendingTransition(R.anim.right_in_enter, R.anim.right_in_exit);
+        }
+    };
 
     private OnClickListener mFadeListener = new OnClickListener() {
         public void onClick(View v) {

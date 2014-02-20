@@ -28,17 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de4ebf7f-7674-4467-98da-af3b7b1c77ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/scale_up_enter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/scale_up_exit.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_18_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarSettingsActionProviderActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarSettingsActionProviderActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/right_in_enter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/right_in_exit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Animation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Animation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/example/android/apis/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/example/android/apis/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/action_bar_settings_action_provider.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/action_bar_settings_action_provider.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/hold.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/hold.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -116,28 +110,23 @@
       <file leaf-file-name="Animation.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Animation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="66" selection-start="3140" selection-end="3140" vertical-scroll-proportion="0.6920821" vertical-offset="499" max-vertical-offset="2085">
+            <state line="74" column="9" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.5718475" vertical-offset="705" max-vertical-offset="2400">
               <folding>
-                <element signature="e#2777#3378#0" expanded="true" />
-                <element signature="e#3371#3372#0" expanded="true" />
-                <element signature="e#3425#4085#0" expanded="true" />
-                <element signature="e#4078#4079#0" expanded="true" />
-                <element signature="e#4135#4395#0" expanded="true" />
-                <element signature="e#4388#4389#0" expanded="true" />
-                <element signature="e#4448#5187#0" expanded="true" />
-                <element signature="e#5180#5181#0" expanded="true" />
-                <element signature="e#6047#6541#0" expanded="true" />
-                <element signature="e#6534#6535#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2898#3140#0" expanded="true" />
+                <element signature="e#3187#3788#0" expanded="true" />
+                <element signature="e#3781#3782#0" expanded="true" />
+                <element signature="e#3835#4495#0" expanded="true" />
+                <element signature="e#4488#4489#0" expanded="true" />
+                <element signature="e#4545#4805#0" expanded="true" />
+                <element signature="e#4798#4799#0" expanded="true" />
+                <element signature="e#4858#5597#0" expanded="true" />
+                <element signature="e#5590#5591#0" expanded="true" />
+                <element signature="e#6457#6951#0" expanded="true" />
+                <element signature="e#6944#6945#0" expanded="true" />
+                <element signature="e#7007#7966#0" expanded="true" />
+                <element signature="e#7959#7960#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hold.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/hold.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="420">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -145,7 +134,43 @@
       <file leaf-file-name="scale_up_exit.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/scale_up_exit.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="43" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="3" column="26" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right_in_exit.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/right_in_exit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="62" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right_in_enter.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/right_in_enter.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="24" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fade.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/fade.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="48" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hold.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/hold.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="3" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -163,16 +188,7 @@
       <file leaf-file-name="zoom_enter.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/zoom_enter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="822" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scale_up_enter.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/scale_up_enter.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="26" column="37" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -184,34 +200,18 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="47" selection-start="1732" selection-end="1732" vertical-scroll-proportion="-2.3584905" vertical-offset="430" max-vertical-offset="1110">
+            <state line="33" column="13" selection-start="1565" selection-end="1565" vertical-scroll-proportion="-3.7735848" vertical-offset="295" max-vertical-offset="1200">
               <folding>
                 <element signature="e#1301#1333#0" expanded="true" />
-                <element signature="e#1484#1517#0" expanded="true" />
-                <element signature="e#1907#1944#0" expanded="true" />
-                <element signature="e#2115#2155#0" expanded="true" />
-                <element signature="e#2351#2391#0" expanded="true" />
-                <element signature="e#2566#2610#0" expanded="true" />
-                <element signature="e#2784#2827#0" expanded="true" />
+                <element signature="e#1488#1525#0" expanded="true" />
+                <element signature="e#1714#1747#0" expanded="true" />
+                <element signature="e#1936#1969#0" expanded="true" />
+                <element signature="e#2137#2174#0" expanded="true" />
+                <element signature="e#2345#2385#0" expanded="true" />
+                <element signature="e#2581#2621#0" expanded="true" />
+                <element signature="e#2796#2840#0" expanded="true" />
+                <element signature="e#3014#3057#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="48" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.0" vertical-offset="1001" max-vertical-offset="22680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action_bar_settings_action_provider.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/action_bar_settings_action_provider.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="37" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="525">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1106,11 +1106,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/action_bar_settings_action_provider.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/hold.xml" />
         <option value="$PROJECT_DIR$/../../android-sdk/platforms/android-19/data/res/anim/accelerate_interpolator.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/scale_up_enter.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Animation.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/scale_up_exit.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/right_in_enter.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/right_in_exit.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Animation.java" />
       </list>
     </option>
   </component>
@@ -1586,16 +1588,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="56" selection-start="827" selection-end="827" vertical-scroll-proportion="0.4360465" vertical-offset="120" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/PrintBitmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="2" selection-start="2328" selection-end="2328" vertical-scroll-proportion="0.4127907" vertical-offset="923" max-vertical-offset="1320" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/widget/CheckedTextView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="13" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.5377907" vertical-offset="55" max-vertical-offset="3990" />
@@ -1828,55 +1820,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/platforms/android-19/data/res/values/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="19" selection-start="5029" selection-end="5029" vertical-scroll-proportion="0.33216783" vertical-offset="1325" max-vertical-offset="19695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/fade.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="789" selection-end="789" vertical-scroll-proportion="0.7478006" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../android-sdk/platforms/android-19/data/res/anim/accelerate_interpolator.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="88" selection-start="759" selection-end="759" vertical-scroll-proportion="0.7917889" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="48" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.0" vertical-offset="1001" max-vertical-offset="22680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="47" selection-start="1732" selection-end="1732" vertical-scroll-proportion="-2.3584905" vertical-offset="430" max-vertical-offset="1110">
-          <folding>
-            <element signature="e#1301#1333#0" expanded="true" />
-            <element signature="e#1484#1517#0" expanded="true" />
-            <element signature="e#1907#1944#0" expanded="true" />
-            <element signature="e#2115#2155#0" expanded="true" />
-            <element signature="e#2351#2391#0" expanded="true" />
-            <element signature="e#2566#2610#0" expanded="true" />
-            <element signature="e#2784#2827#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/zoom_enter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="822" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
@@ -1888,9 +1834,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="45" selection-start="4065" selection-end="4092" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="22695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="1565" selection-end="1565" vertical-scroll-proportion="-3.7735848" vertical-offset="295" max-vertical-offset="1200">
+          <folding>
+            <element signature="e#1301#1333#0" expanded="true" />
+            <element signature="e#1488#1525#0" expanded="true" />
+            <element signature="e#1714#1747#0" expanded="true" />
+            <element signature="e#1936#1969#0" expanded="true" />
+            <element signature="e#2137#2174#0" expanded="true" />
+            <element signature="e#2345#2385#0" expanded="true" />
+            <element signature="e#2581#2621#0" expanded="true" />
+            <element signature="e#2796#2840#0" expanded="true" />
+            <element signature="e#3014#3057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/zoom_enter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="37" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/hold.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="420">
+        <state line="17" column="3" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
@@ -1902,27 +1882,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/fade.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="48" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android-sdk/platforms/android-19/data/res/values/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="19" selection-start="5029" selection-end="5029" vertical-scroll-proportion="0.33231708" vertical-offset="1406" max-vertical-offset="19695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/right_in_enter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/scale_up_exit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="43" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+        <state line="3" column="26" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/right_in_exit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="62" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="66" selection-start="3140" selection-end="3140" vertical-scroll-proportion="0.6920821" vertical-offset="499" max-vertical-offset="2085">
+        <state line="74" column="9" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.5718475" vertical-offset="705" max-vertical-offset="2400">
           <folding>
-            <element signature="e#2777#3378#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#3425#4085#0" expanded="true" />
-            <element signature="e#4078#4079#0" expanded="true" />
-            <element signature="e#4135#4395#0" expanded="true" />
-            <element signature="e#4388#4389#0" expanded="true" />
-            <element signature="e#4448#5187#0" expanded="true" />
-            <element signature="e#5180#5181#0" expanded="true" />
-            <element signature="e#6047#6541#0" expanded="true" />
-            <element signature="e#6534#6535#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2898#3140#0" expanded="true" />
+            <element signature="e#3187#3788#0" expanded="true" />
+            <element signature="e#3781#3782#0" expanded="true" />
+            <element signature="e#3835#4495#0" expanded="true" />
+            <element signature="e#4488#4489#0" expanded="true" />
+            <element signature="e#4545#4805#0" expanded="true" />
+            <element signature="e#4798#4799#0" expanded="true" />
+            <element signature="e#4858#5597#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#6457#6951#0" expanded="true" />
+            <element signature="e#6944#6945#0" expanded="true" />
+            <element signature="e#7007#7966#0" expanded="true" />
+            <element signature="e#7959#7960#0" expanded="true" />
           </folding>
         </state>
       </provider>
