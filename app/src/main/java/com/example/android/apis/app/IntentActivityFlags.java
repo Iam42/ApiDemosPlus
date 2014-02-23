@@ -46,10 +46,16 @@ public class IntentActivityFlags extends Activity {
         // First: root activity of ApiDemos.
         // This is a convenient way to make the proper Intent to launch and
         // reset an application's task.
-        intents[0] = Intent.makeRestartActivityTask(new ComponentName(this,
-                com.example.android.apis.ApiDemos.class));
+        Intent intent = new Intent(this,
+                com.example.android.apis.app.HelloWorld.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
+                | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intents[0] = intent;
+        // in sdk > 11:
+        // intents[0] = Intent.makeRestartActivityTask(new ComponentName(this,
+        //        com.example.android.apis.app.HelloWorld.class));
 
-        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent = new Intent(Intent.ACTION_MAIN);
         intent.setClass(IntentActivityFlags.this, com.example.android.apis.ApiDemos.class);
         intent.putExtra("com.example.android.apis.Path", "Views");
         intents[1] = intent;

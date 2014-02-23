@@ -56,6 +56,8 @@ public class FinishAffinity extends Activity {
 
     private OnClickListener mFinishListener = new OnClickListener() {
         public void onClick(View v) {
+            //Note that this finish does not allow you to deliver results to the previous activity,
+            // and an exception will be thrown if you are trying to do so.
             finishAffinity();
         }
     };

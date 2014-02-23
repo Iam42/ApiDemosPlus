@@ -30,7 +30,8 @@
     <list default="true" id="de4ebf7f-7674-4467-98da-af3b7b1c77ea" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_18_0_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/CustomTitle.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/CustomTitle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/FinishAffinity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/FinishAffinity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/IntentActivityFlags.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/IntentActivityFlags.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ApiDemosPlus.iws" />
@@ -98,10 +99,9 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="230" column="41" selection-start="10521" selection-end="10521" vertical-scroll-proportion="0.0" vertical-offset="3309" max-vertical-offset="45315">
+            <state line="509" column="30" selection-start="22751" selection-end="22751" vertical-scroll-proportion="-4.6923075" vertical-offset="7513" max-vertical-offset="45315">
               <folding>
-                <element signature="e#11317#11354#0" expanded="true" />
-                <element signature="e#15173#15209#0" expanded="true" />
+                <element signature="e#22751#22791#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,54 +110,37 @@
       <file leaf-file-name="themes.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../android-sdk/platforms/android-19/data/res/values/themes.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="30" selection-start="10134" selection-end="10134" vertical-scroll-proportion="-7.3076925" vertical-offset="2330" max-vertical-offset="28050">
+            <state line="1659" column="0" selection-start="108989" selection-end="108989" vertical-scroll-proportion="0.0" vertical-offset="24480" max-vertical-offset="28050">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomTitle.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/CustomTitle.java">
+      <file leaf-file-name="IntentActivityFlags.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/IntentActivityFlags.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="24" selection-start="1552" selection-end="1563" vertical-scroll-proportion="0.076246336" vertical-offset="394" max-vertical-offset="1095">
-              <folding>
-                <element signature="e#2793#2940#0" expanded="true" />
-                <element signature="e#2929#2930#0" expanded="true" />
-                <element signature="e#2982#3131#0" expanded="true" />
-                <element signature="e#3120#3121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionBarMechanics.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="62" selection-start="1846" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="930">
+            <state line="82" column="81" selection-start="3186" selection-end="3205" vertical-scroll-proportion="0.5119048" vertical-offset="833" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_title_1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_title_1.xml">
+      <file leaf-file-name="Intent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/content/Intent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3866" column="25" selection-start="180994" selection-end="180994" vertical-scroll-proportion="0.0" vertical-offset="57169" max-vertical-offset="108420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialog_activity.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_activity.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.444445" vertical-offset="255" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom_title.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_title.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="47" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-2.8867924" vertical-offset="282" max-vertical-offset="945">
+            <state line="35" column="44" selection-start="1727" selection-end="1727" vertical-scroll-proportion="-5.2222223" vertical-offset="384" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -1062,6 +1045,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_dialog_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/CustomTitle.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/DialogActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/FinishAffinity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/hello_world.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/IntentActivityFlags.java" />
       </list>
     </option>
   </component>
@@ -1252,7 +1240,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DoubanGroup-Android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DoubanFM-Android" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0149E1311902100D" />
     <property name="OverrideImplement.combined" value="true" />
@@ -1296,19 +1284,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1334,6 +1309,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1452,7 +1440,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3980424" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36378467" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1481,94 +1469,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10555" column="34" selection-start="411674" selection-end="411674" vertical-scroll-proportion="0.33231708" vertical-offset="155726" max-vertical-offset="290595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/classes.jar!/android/support/v7/app/ActionBar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="38" selection-start="2502" selection-end="2502" vertical-scroll-proportion="0.35973597" vertical-offset="896" max-vertical-offset="3000" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="40" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.22611465" vertical-offset="544" max-vertical-offset="960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/view/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="28" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.33159268" vertical-offset="503" max-vertical-offset="19170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/view/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="523" column="16" selection-start="20074" selection-end="20074" vertical-scroll-proportion="0.48825064" vertical-offset="7388" max-vertical-offset="8790" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2661" column="16" selection-start="113980" selection-end="113980" vertical-scroll-proportion="0.33231708" vertical-offset="38276" max-vertical-offset="80130">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/widget/SearchView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="13" selection-start="3509" selection-end="3509" vertical-scroll-proportion="1.5091463" vertical-offset="0" max-vertical-offset="24840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarDisplayOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="71" selection-start="1924" selection-end="1924" vertical-scroll-proportion="-0.09756097" vertical-offset="752" max-vertical-offset="2595">
-          <folding>
-            <element signature="e#0#6908#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/action_bar_display_options_custom.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="522" selection-end="522" vertical-scroll-proportion="0.43630573" vertical-offset="28" max-vertical-offset="345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/res/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="626" column="4" selection-start="33062" selection-end="33062" vertical-scroll-proportion="0.35973597" vertical-offset="9281" max-vertical-offset="17385" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/classes.jar!/android/support/v7/widget/SearchView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="28" selection-start="12075" selection-end="12075" vertical-scroll-proportion="0.5379538" vertical-offset="3782" max-vertical-offset="4110" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/view/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="376" column="20" selection-start="15338" selection-end="15338" vertical-scroll-proportion="0.55131966" vertical-offset="5212" max-vertical-offset="6555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/action_bar_tabs.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="49" selection-start="2046" selection-end="2046" vertical-scroll-proportion="-11.111111" vertical-offset="315" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../android-sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar!/android/support/v4/app/FragmentTransaction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="63" selection-start="945" selection-end="945" vertical-scroll-proportion="0.35973597" vertical-offset="191" max-vertical-offset="1035" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/actions.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="58" selection-start="996" selection-end="996" vertical-scroll-proportion="-4.6153846" vertical-offset="180" max-vertical-offset="825" />
@@ -1581,9 +1481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarTabs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.3489736" vertical-offset="1" max-vertical-offset="1860">
-          <folding />
-        </state>
+        <state line="22" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.3489736" vertical-offset="1" max-vertical-offset="1860" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarUsage.java">
@@ -1638,9 +1536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarShareActionProviderActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="52" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1770">
-          <folding />
-        </state>
+        <state line="54" column="52" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1770" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/action_bar_settings_action_provider.xml">
@@ -1674,16 +1570,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/right_in_enter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="3" column="24" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/scale_up_exit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="3" column="26" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/right_in_exit.xml">
@@ -1698,9 +1590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/hold.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="741" selection-end="741" vertical-scroll-proportion="0.7478006" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="17" column="3" selection-start="741" selection-end="741" vertical-scroll-proportion="0.7478006" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/zoom_exit.xml">
@@ -1774,9 +1664,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarSettingsActionProviderActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="13" selection-start="1476" selection-end="1476" vertical-scroll-proportion="-1.143695" vertical-offset="645" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="43" column="13" selection-start="1476" selection-end="1476" vertical-scroll-proportion="-1.143695" vertical-offset="645" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
@@ -1806,39 +1694,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="62" selection-start="1846" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/CustomTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="33" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="1095">
+          <folding>
+            <element signature="e#2793#2940#0" expanded="false" />
+            <element signature="e#2929#2930#0" expanded="false" />
+            <element signature="e#2982#3131#0" expanded="false" />
+            <element signature="e#3120#3121#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/view/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="28" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.3313783" vertical-offset="292" max-vertical-offset="19170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3334" column="16" selection-start="125295" selection-end="125295" vertical-scroll-proportion="0.33231708" vertical-offset="49031" max-vertical-offset="100530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/DialogActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="42" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.55654764" vertical-offset="803" max-vertical-offset="1380">
+          <folding>
+            <element signature="e#0#3079#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2351#2729#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#2785#3075#0" expanded="true" />
+            <element signature="e#3068#3069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/forwarding.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.69875777" vertical-offset="225" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ForwardTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="976" selection-end="976" vertical-scroll-proportion="0.3314917" vertical-offset="75" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Forwarding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="53" selection-start="2793" selection-end="2793" vertical-scroll-proportion="0.5801105" vertical-offset="600" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android-sdk/platforms/android-19/data/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="20" selection-start="6990" selection-end="6990" vertical-scroll-proportion="0.3323782" vertical-offset="1819" max-vertical-offset="92475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/hello_world.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="57" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.64179105" vertical-offset="145" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="39" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.7044199" vertical-offset="435" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/FinishAffinity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="26" selection-start="2179" selection-end="2193" vertical-scroll-proportion="0.6270718" vertical-offset="418" max-vertical-offset="780">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../android-sdk/platforms/android-19/data/res/values/themes.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="30" selection-start="10134" selection-end="10134" vertical-scroll-proportion="-7.3076925" vertical-offset="2330" max-vertical-offset="28050">
+        <state line="1659" column="0" selection-start="108989" selection-end="108989" vertical-scroll-proportion="0.0" vertical-offset="24480" max-vertical-offset="28050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Intents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.37845305" vertical-offset="118" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_activity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="44" selection-start="1727" selection-end="1727" vertical-scroll-proportion="-5.2222223" vertical-offset="384" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3866" column="25" selection-start="180994" selection-end="180994" vertical-scroll-proportion="0.0" vertical-offset="57169" max-vertical-offset="108420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="41" selection-start="10521" selection-end="10521" vertical-scroll-proportion="0.0" vertical-offset="3309" max-vertical-offset="45315">
+        <state line="509" column="30" selection-start="22751" selection-end="22751" vertical-scroll-proportion="-4.6923075" vertical-offset="7513" max-vertical-offset="45315">
           <folding>
-            <element signature="e#11317#11354#0" expanded="true" />
-            <element signature="e#15173#15209#0" expanded="true" />
+            <element signature="e#22751#22791#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ActionBarMechanics.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/IntentActivityFlags.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="62" selection-start="1846" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="930">
+        <state line="82" column="81" selection-start="3186" selection-end="3205" vertical-scroll-proportion="0.5119048" vertical-offset="833" max-vertical-offset="1230">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/CustomTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="24" selection-start="1552" selection-end="1563" vertical-scroll-proportion="0.076246336" vertical-offset="394" max-vertical-offset="1095">
-          <folding>
-            <element signature="e#2793#2940#0" expanded="true" />
-            <element signature="e#2929#2930#0" expanded="true" />
-            <element signature="e#2982#3131#0" expanded="true" />
-            <element signature="e#3120#3121#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
