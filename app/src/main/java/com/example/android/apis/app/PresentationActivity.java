@@ -51,6 +51,7 @@ import android.widget.TextView;
 
 /**
  * <h3>Presentation Activity</h3>
+ * 辅助显示器 这个可以用来以后搞个移动ppt的幺蛾子
  *
  * <p>
  * This demonstrates how to create an activity that shows some content

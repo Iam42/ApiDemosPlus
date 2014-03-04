@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
@@ -83,7 +84,9 @@ public class RotationAnimation extends Activity {
     }
 
     private void setRotationAnimation(int rotationAnimation) {
+        Log.d("zhang", "1");
         Window win = getWindow();
+        Log.d("zhang", "2");
         WindowManager.LayoutParams winParams = win.getAttributes();
         winParams.rotationAnimation = rotationAnimation;
         win.setAttributes(winParams);

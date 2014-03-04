@@ -85,6 +85,7 @@ public class SecureDialogActivity extends Activity
 
         // Make the dialog secure.  This must be done at the time the dialog is
         // created.  It cannot be changed after the dialog has been shown.
+        //不允许截图
         dialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
                 WindowManager.LayoutParams.FLAG_SECURE);
 
