@@ -67,9 +67,10 @@ public class SetWallpaperActivity extends Activity {
         randomize.setOnClickListener(new OnClickListener() {
             public void onClick(View view) {
                 int mColor = (int) Math.floor(Math.random() * mColors.length);
-                wallpaperDrawable.setColorFilter(mColors[mColor], PorterDuff.Mode.MULTIPLY);
+                wallpaperDrawable.setColorFilter(mColors[mColor], PorterDuff.Mode.SRC_ATOP);
                 imageView.setImageDrawable(wallpaperDrawable);
-                imageView.invalidate();
+                //setImageDrawable已经执行过invalidate了，所以这几句是多余的
+                //imageView.invalidate();
             }
         });
 

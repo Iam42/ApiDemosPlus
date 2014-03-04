@@ -78,6 +78,7 @@ public class SecureSurfaceViewActivity extends Activity {
         // is created before the surface view's containing window is attached to
         // the window manager which happens after onCreate returns.
         // It cannot be changed later.
+        //不能录屏，也不能截屏，应为录屏是api17新加的功能，所有以前的版本也用不上，也就没有兼容性这么一说
         mSurfaceView.setSecure(true);
     }
 

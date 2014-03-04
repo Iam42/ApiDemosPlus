@@ -27,19 +27,14 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="zhang" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.android.apis" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de4ebf7f-7674-4467-98da-af3b7b1c77ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_18_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/PresentationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/PresentationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ReorderFour.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/ReorderFour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/RotationAnimation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/RotationAnimation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureDialogActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureDialogActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureSurfaceViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureSurfaceViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SetWallpaperActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SetWallpaperActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ApiDemosPlus.iws" />
@@ -134,16 +129,38 @@
       <file leaf-file-name="SecureDialogActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureDialogActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="26" selection-start="3284" selection-end="3284" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1200">
+            <state line="90" column="0" selection-start="3449" selection-end="3590" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecureSurfaceViewActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SecureWindowActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureWindowActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="7" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetWallpaperActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SetWallpaperActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="24" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.6439169" vertical-offset="608" max-vertical-offset="1215">
+              <folding>
+                <element signature="e#0#3514#0" expanded="true" />
+                <element signature="e#2634#3064#0" expanded="true" />
+                <element signature="e#3053#3054#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecureSurfaceViewActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureSurfaceViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="26" selection-start="2069" selection-end="2082" vertical-scroll-proportion="-0.07692308" vertical-offset="510" max-vertical-offset="1290">
+            <state line="81" column="37" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -165,18 +182,6 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="23" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rotation_animation.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rotation_animation.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="71" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -1188,6 +1193,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/rotation_animation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/RotationAnimation.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureDialogActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureSurfaceViewActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SetWallpaperActivity.java" />
       </list>
     </option>
   </component>
@@ -1567,11 +1574,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="708" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1581,16 +1589,15 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.406199" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4045677" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1611,41 +1618,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="39" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.7044199" vertical-offset="435" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/FinishAffinity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="26" selection-start="2179" selection-end="2193" vertical-scroll-proportion="0.6270718" vertical-offset="418" max-vertical-offset="780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/Intents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.37845305" vertical-offset="118" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="44" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/content/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3866" column="25" selection-start="180994" selection-end="180994" vertical-scroll-proportion="0.0" vertical-offset="57169" max-vertical-offset="108420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/app/PendingIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="395" column="58" selection-start="19713" selection-end="19713" vertical-scroll-proportion="0.08287293" vertical-offset="5505" max-vertical-offset="14010" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/IntentActivityFlags.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="31" selection-start="3285" selection-end="3285" vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="1260" />
@@ -1847,8 +1819,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="9" selection-start="3003" selection-end="3003" vertical-scroll-proportion="1.4910715" vertical-offset="594" max-vertical-offset="1380">
           <folding>
-            <element signature="e#0#3375#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3375#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1945,17 +1917,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureDialogActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureSurfaceViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="26" selection-start="3284" selection-end="3284" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1200">
+        <state line="81" column="37" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureSurfaceViewActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureDialogActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="26" selection-start="2069" selection-end="2082" vertical-scroll-proportion="-0.07692308" vertical-offset="510" max-vertical-offset="1290">
+        <state line="90" column="0" selection-start="3449" selection-end="3590" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1200">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SecureWindowActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="7" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/wallpaper_2.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="771" selection-end="771" vertical-scroll-proportion="0.53763443" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/graphics/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="28" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.3323442" vertical-offset="278" max-vertical-offset="6165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/graphics/drawable/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="443" column="16" selection-start="16865" selection-end="16865" vertical-scroll-proportion="0.3323442" vertical-offset="5828" max-vertical-offset="15075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android-sdk/sources/android-19/android/widget/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="412" column="16" selection-start="14154" selection-end="14154" vertical-scroll-proportion="0.3768546" vertical-offset="5258" max-vertical-offset="18030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/apis/app/SetWallpaperActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="24" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.6439169" vertical-offset="608" max-vertical-offset="1215">
+          <folding>
+            <element signature="e#0#3514#0" expanded="true" />
+            <element signature="e#2634#3064#0" expanded="true" />
+            <element signature="e#3053#3054#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
